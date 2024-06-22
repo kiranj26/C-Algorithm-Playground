@@ -18,18 +18,94 @@ The repository is structured into different categories of algorithms, each with 
 ## Categories
 
 The algorithms are organized into the following categories:
-- **Sorting Algorithms**: Implementations of various sorting algorithms like Bubble Sort, Quick Sort, Merge Sort, etc.
-- **Searching Algorithms**: Implementations of searching algorithms like Binary Search, Linear Search, etc.
-- **Graph Algorithms**: Implementations of graph traversal and pathfinding algorithms like BFS, DFS, Dijkstra's, etc.
-- **Dynamic Programming**: Solutions to problems using dynamic programming techniques.
-- **Data Structures**: Implementation of various data structures like linked lists, stacks, queues, trees, etc.
+
+### Basic
+1. **Sorting Algorithms**:
+   - Bubble Sort
+   - Selection Sort
+   - Insertion Sort
+
+2. **Searching Algorithms**:
+   - Linear Search
+   - Binary Search
+
+3. **Basic Data Structures**:
+   - Arrays
+   - Linked Lists
+   - Stacks
+   - Queues
+
+4. **Bit Manipulation**:
+   - Basic Bitwise Operations (AND, OR, XOR, NOT, shifts)
+
+5. **Mathematical Algorithms**:
+   - Greatest Common Divisor (GCD)
+   - Least Common Multiple (LCM)
+
+### Medium
+1. **Sorting Algorithms**:
+   - Merge Sort
+   - Quick Sort
+   - Heap Sort
+
+2. **Searching Algorithms**:
+   - Depth-First Search (DFS)
+   - Breadth-First Search (BFS)
+
+3. **Advanced Data Structures**:
+   - Trees (Binary Trees, Binary Search Trees)
+   - Graphs (Adjacency Matrix, Adjacency List)
+   - Hash Tables
+
+4. **Dynamic Programming**:
+   - Fibonacci Sequence
+   - Coin Change Problem
+   - Knapsack Problem
+
+5. **String Algorithms**:
+   - String Matching (Knuth-Morris-Pratt, Boyer-Moore)
+   - Trie Data Structure
+
+6. **Numerical Methods**:
+   - Newton-Raphson Method
+   - Numerical Integration
+
+### Hard
+1. **Graph Algorithms**:
+   - Dijkstra's Algorithm
+   - Bellman-Ford Algorithm
+   - Floyd-Warshall Algorithm
+
+2. **Advanced Dynamic Programming**:
+   - Longest Increasing Subsequence
+   - Longest Common Subsequence
+   - Matrix Chain Multiplication
+
+3. **Complex Data Structures**:
+   - AVL Trees
+   - Red-Black Trees
+   - B-Trees
+
+4. **Concurrency and Real-Time Algorithms**:
+   - Mutexes and Semaphores
+   - Scheduling Algorithms (Rate Monotonic, Earliest Deadline First)
+
+5. **Cryptography Algorithms**:
+   - RSA Algorithm
+   - AES Encryption
+   - SHA Hashing
+
+6. **Optimization Algorithms**:
+   - Genetic Algorithms
+   - Simulated Annealing
+   - Ant Colony Optimization
 
 ## Getting Started
 
 To get started with this repository:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/<your-username>/C-Algorithm-Playground.git
+    git clone https://github.com/kiranj26/C-Algorithm-Playground.git
     ```
 2. Navigate to the directory of the algorithm you want to explore.
 3. Compile the C source file using GCC or any other C compiler:
