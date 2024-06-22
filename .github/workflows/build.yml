@@ -16,4 +16,9 @@ jobs:
 
     - name: Run Tests
       run: |
-        ./sorting/simple_sort
+        for exe in $(find . -type f -executable); do $$exe; done
+
+    - name: Disable Notifications
+      if: always()
+      continue-on-error: true
+      run: echo 'No email notifications for this workflow'

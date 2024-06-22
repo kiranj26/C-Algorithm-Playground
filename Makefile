@@ -1,13 +1,20 @@
 CC=gcc
 CFLAGS=-I.
 
-all: sorting/simple_sort
+# Function to do a recursive wildcard search
+rwildcard=$(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2)$(filter $(subst *,%,$2),$d))
 
-sorting/simple_sort: sorting/simple_sort.o
-	$(CC) -o sorting/simple_sort sorting/simple_sort.o
+SRC=$(call rwildcard,.,*.c)
+OBJ=$(SRC:.c=.o)
+EXEC=$(SRC:.c=)
 
-sorting/simple_sort.o: sorting/simple_sort.c
-	$(CC) -c sorting/simple_sort.c $(CFLAGS)
+all: $(EXEC)
+
+%: %.o
+	$(CC) -o $@ $<
+
+%.o: %.c
+	$(CC) -c $< -o $@ $(CFLAGS)
 
 clean:
-	rm -f sorting/*.o sorting/simple_sort
+	rm -f $(OBJ) $(EXEC)
