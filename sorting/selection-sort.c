@@ -1,5 +1,5 @@
 /*
- * Selection Sort
+ * Ieterative Selection Sort
  *
  * Selection sort is a simple comparison-based sorting algorithm. It works by dividing the input
  * array into two parts: the sorted part at the left end and the unsorted part at the right end.
