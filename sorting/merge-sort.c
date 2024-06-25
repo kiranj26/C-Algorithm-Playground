@@ -43,6 +43,12 @@
  *
  * This will sort the array in ascending order.
  *
+ * Time Complexity:
+ *  Best Case: O(n log n), When the array is already sorted or nearly sorted.
+ * Average Case: O(n log n), When the array is randomly ordered.
+ * Worst Case: O(n log n), When the array is sorted in reverse order.
+ * Space Complexity: O(n), Additional space is required for the temporary array used during merging.
+
  * References:
  * - Introduction to Algorithms by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein
  * - GeeksforGeeks (https://www.geeksforgeeks.org/merge-sort/)
