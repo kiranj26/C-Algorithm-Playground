@@ -8,16 +8,11 @@ jobs:
 
     steps:
     - name: Checkout code
-      # This step checks out the code from the GitHub repository
       uses: actions/checkout@v2
 
     - name: Build with Makefile
-      # This step runs the 'make' command to build the project using the Makefile
-      # The 'LDFLAGS=-lm' ensures the math library is linked during the build process
-      run: make LDFLAGS=-lm
+      run: make LDFLAGS="-lm"
 
     - name: Run Tests
-      # This step finds and runs all executables in the repository
-      # 'find . -type f -executable -exec {} \;' executes each found file
       run: |
         find . -type f -executable -exec {} \;

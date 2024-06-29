@@ -1,18 +1,21 @@
-# Compiler to use
+# Define the compiler
 CC=gcc
 
-# Compiler flags for compiling and linking
+# Define compiler flags
 CFLAGS=-I. -Wall -Wextra -std=c99
+
+# Define linker flags
 LDFLAGS=-lm
 
-# Function to perform a recursive wildcard search
-# This function searches for all .c files in the directory and subdirectories
+# Function to do a recursive wildcard search
 rwildcard=$(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2)$(filter $(subst *,%,$2),$d))
 
 # Find all .c files
 SRC=$(call rwildcard,.,*.c)
+
 # Convert .c filenames to .o filenames
 OBJ=$(SRC:.c=.o)
+
 # Convert .c filenames to executable names
 EXEC=$(SRC:.c=)
 
@@ -22,7 +25,7 @@ all: $(EXEC)
 # Rule to link object files into executables
 # $(LDFLAGS) is placed at the end to ensure the math library is linked correctly
 %: %.o
-	$(CC) $(CFLAGS) $< -o $@ $(LDFLAGS)
+	$(CC) $< -o $@ $(LDFLAGS)
 
 # Rule to compile .c files into .o files
 %.o: %.c
