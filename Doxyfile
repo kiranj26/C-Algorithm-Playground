@@ -1,28 +1,44 @@
-# Doxyfile 1.8.20
+# Doxyfile configuration for Doxygen
 
-# Project related configuration options
+# General configuration options
 PROJECT_NAME           = "C Algorithm Playground"
 PROJECT_NUMBER         = "1.0"
-OUTPUT_DIRECTORY       = "docs"
-CREATE_SUBDIRS         = NO
-OUTPUT_LANGUAGE        = English
+OUTPUT_DIRECTORY       = docs
 
-# Build related configuration options
-EXTRACT_ALL            = YES
-EXTRACT_PRIVATE        = YES
-EXTRACT_STATIC         = YES
-EXTRACT_LOCAL_CLASSES  = YES
-EXTRACT_LOCAL_METHODS  = YES
-
-# Output formats
-GENERATE_HTML          = YES
-GENERATE_LATEX         = NO
-
-# Source code documentation options
-SOURCE_BROWSER         = YES
-INLINE_SOURCES         = YES
-STRIP_CODE_COMMENTS    = YES
-
-# File patterns
-FILE_PATTERNS          = src/*.c include/*.h
+# Input
+INPUT                  = .
+FILE_PATTERNS          = *.c *.md
 RECURSIVE              = YES
+
+# Build the documentation
+FULL_PATH_NAMES        = NO
+STRIP_FROM_PATH        = .
+GENERATE_LATEX         = NO
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+
+# Graphical diagrams
+HAVE_DOT               = YES
+DOT_PATH               = /usr/bin/dot
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+CLASS_DIAGRAMS         = YES
+COLLABORATION_GRAPH    = YES
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES
+
+# Enable the usage of the built-in search engine
+SEARCHENGINE           = YES
+
+# Show directories in the navigation
+SHOW_DIRECTORIES       = YES
+
+# Enhance the appearance
+GENERATE_TREEVIEW      = YES
+DISABLE_INDEX          = NO
+
+# Additional customization
+USE_MDFILE_AS_MAINPAGE = README.md
+
+# Main page introduction
+PROJECT_BRIEF          = "This repository contains various algorithm implementations in C."
