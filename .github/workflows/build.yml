@@ -1,4 +1,4 @@
-name: Build and Test
+name: Build, Test, and Document
 
 on: [push, pull_request]
 
@@ -19,8 +19,63 @@ jobs:
       run: |
         echo "Running make with LDFLAGS=-lm"
         make clean
-        make LDFLAGS="-lm" CFLAGS="-I. -Wall -Wextra -std=c99"
+        make LDFLAGS="-lm" CFLAGS="-Iinclude -Wall -Wextra -std=c99"
 
     - name: Run Tests
       run: |
         find . -type f -executable -exec {} \;
+
+    - name: Run clang-format
+      run: |
+        sudo apt-get install -y clang-format
+        clang-format -i $(find src include -name "*.c" -o -name "*.h")
+
+    - name: Run clang-tidy
+      run: |
+        sudo apt-get install -y clang-tidy
+        clang-tidy $(find src include -name "*.c" -o -name "*.h") -- -Iinclude
+
+    - name: Run cppcheck
+      run: |
+        sudo apt-get install -y cppcheck
+        cppcheck --enable=all --inconclusive --std=c99 --language=c --suppress=missingIncludeSystem $(find src include -name "*.c" -o -name "*.h")
+
+    - name: Run valgrind
+      run: |
+        sudo apt-get install -y valgrind
+        find . -type f -executable -exec valgrind --leak-check=full --error-exitcode=1 {} \;
+
+    - name: Run gcov and lcov
+      run: |
+        sudo apt-get install -y lcov
+        make CFLAGS="$CFLAGS --coverage"
+        lcov --capture --directory . --output-file coverage.info
+        lcov --remove coverage.info '/usr/*' --output-file coverage.info
+        lcov --list coverage.info
+
+    - name: Upload Coverage Report
+      uses: actions/upload-artifact@v2
+      with:
+        name: coverage-report
+        path: coverage.info
+
+    - name: Install Doxygen
+      run: sudo apt-get install -y doxygen
+
+    - name: Generate Documentation
+      run: doxygen Doxyfile
+
+    - name: Upload Documentation
+      uses: actions/upload-artifact@v2
+      with:
+        name: documentation
+        path: docs/html
+        retention-days: 5
+
+    - name: Run CodeQL Analysis
+      uses: github/codeql-action/init@v1
+      with:
+        languages: c
+
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v1

@@ -1,5 +1,20 @@
 # C Algorithm Playground
 
+![Build Status](https://github.com/kiranj26/C-Algorithm-Playground/workflows/Build%20and%20Test/badge.svg)
+[![Code Style](https://img.shields.io/badge/code%20style-clang--format-brightgreen)](https://clang.llvm.orgHere's how you can update the main `README.md` to include the results of the additional actions and add badges to highlight the tools used in your repository:
+
+### Updated `README.md` with Badges
+
+```markdown
+# C Algorithm Playground
+
+![Build Status](https://github.com/kiranj26/C-Algorithm-Playground/actions/workflows/build.yml/badge.svg)
+[![Code Style](https://img.shields.io/badge/code%20style-clang--format-brightgreen)](https://clang.llvm.org/docs/ClangFormat.html)
+[![Static Analysis](https://img.shields.io/badge/static%20analysis-clang--tidy-brightgreen)](https://clang.llvm.org/extra/clang-tidy/)
+[![Memory Leak Detection](https://img.shields.io/badge/memory%20leak%20detection-valgrind-brightgreen)](https://valgrind.org/)
+[![Code Coverage](https://img.shields.io/badge/code%20coverage-gcov%20%2B%20lcov-brightgreen)](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html)
+[![Documentation](https://img.shields.io/badge/documentation-doxygen-brightgreen)](https://www.doxygen.nl/index.html)
+
 Welcome to the C Algorithm Playground! This repository is a personal project to explore and implement various algorithms in C, inspired by the open-source repository [TheAlgorithms/C](https://github.com/TheAlgorithms/C).
 
 ## Purpose
@@ -99,6 +114,28 @@ The algorithms are organized into the following categories:
    - Genetic Algorithms
    - Simulated Annealing
    - Ant Colony Optimization
+
+## Additional Actions
+
+### Code Formatting
+
+We use `clang-format` to ensure consistent code style across the project.
+
+### Static Code Analysis
+
+We use `clang-tidy` and `cppcheck` for static code analysis to catch potential issues early.
+
+### Memory Leak Detection
+
+We use `valgrind` to check for memory leaks and other memory-related issues.
+
+### Code Coverage
+
+We use `gcov` and `lcov` to generate code coverage reports to ensure our tests cover the code effectively.
+
+### Documentation
+
+We use Doxygen to generate detailed documentation for our code.
 
 ## Getting Started
 
