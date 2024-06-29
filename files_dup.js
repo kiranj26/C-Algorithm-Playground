@@ -13,5 +13,6 @@ var files_dup =
     [ "selection_sort_recursive.c", "selection__sort__recursive_8c.html", "selection__sort__recursive_8c" ],
     [ "selection_sort_stable.c", "selection__sort__stable_8c.html", "selection__sort__stable_8c" ],
     [ "selection_sort_strings.c", "selection__sort__strings_8c.html", "selection__sort__strings_8c" ],
-    [ "simple_sort.c", "simple__sort_8c.html", "simple__sort_8c" ]
+    [ "simple_sort.c", "simple__sort_8c.html", "simple__sort_8c" ],
+    [ "ternary_search_simple.c", "ternary__search__simple_8c.html", "ternary__search__simple_8c" ]
 ];
