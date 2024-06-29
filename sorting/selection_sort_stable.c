@@ -1,5 +1,5 @@
 /**
- * @file stable_selection_sort.c
+ * @file selection_sort_stable.c
  * @brief Implementation of the Stable Selection Sort Algorithm.
  *
  * @details

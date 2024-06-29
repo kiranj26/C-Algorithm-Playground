@@ -1,5 +1,5 @@
 /**
- * @file recursive_insertion_sort.c
+ * @file insertion_sort_recursive.c
  * @brief Implementation of the Recursive Insertion Sort Algorithm.
  *
  * @details

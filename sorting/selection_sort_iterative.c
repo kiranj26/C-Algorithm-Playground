@@ -1,5 +1,5 @@
 /**
- * @file iterative_selection_sort.c
+ * @file selection_sort_iterative.c
  * @brief Implementation of the Iterative Selection Sort Algorithm.
  *
  * @details

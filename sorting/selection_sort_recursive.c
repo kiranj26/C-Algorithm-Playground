@@ -1,5 +1,5 @@
 /**
- * @file recursive_selection_sort.c
+ * @file selection_sort_recursive.c
  * @brief Implementation of the Recursive Selection Sort Algorithm.
  *
  * @details

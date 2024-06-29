@@ -1,5 +1,5 @@
 /**
- * @file recursive_bubble_sort.c
+ * @file bubble_sort_recursive.c
  * @brief Implementation of the Recursive Bubble Sort Algorithm.
  *
  * @details

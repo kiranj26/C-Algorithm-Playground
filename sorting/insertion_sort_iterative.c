@@ -1,5 +1,5 @@
 /**
- * @file insertion_sort.c
+ * @file insertion_sort_iterative.c
  * @brief Implementation of the Insertion Sort Algorithm.
  *
  * @details
