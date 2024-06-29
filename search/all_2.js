@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['main_3',['main',['../simple__sort_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'simple_sort.c']]]
+  ['insertion_5fsort_7',['insertion_sort',['../insertion__sort__iterative_8c.html#a52f66cec33b12c2bd00e44bc891cd4de',1,'insertion_sort_iterative.c']]],
+  ['insertion_5fsort_5fiterative_2ec_8',['insertion_sort_iterative.c',['../insertion__sort__iterative_8c.html',1,'']]],
+  ['insertion_5fsort_5frecursive_2ec_9',['insertion_sort_recursive.c',['../insertion__sort__recursive_8c.html',1,'']]]
 ];

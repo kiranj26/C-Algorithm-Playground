@@ -68,7 +68,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"files.html"
+"bubble__sort_8c.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
