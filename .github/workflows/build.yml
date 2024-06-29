@@ -18,7 +18,8 @@ jobs:
     - name: Build with Makefile
       run: |
         echo "Running make with LDFLAGS=-lm"
-        make LDFLAGS="-lm" VERBOSE=1
+        make clean
+        make LDFLAGS="-lm" CFLAGS="-I. -Wall -Wextra -std=c99"
 
     - name: Run Tests
       run: |

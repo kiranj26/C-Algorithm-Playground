@@ -25,7 +25,7 @@ all: $(EXEC)
 # Rule to link object files into executables
 # $(LDFLAGS) is placed at the end to ensure the math library is linked correctly
 %: %.o
-	$(CC) $< -o $@ $(LDFLAGS)
+	$(CC) $(CFLAGS) $< -o $@ $(LDFLAGS)
 
 # Rule to compile .c files into .o files
 %.o: %.c
