@@ -27,6 +27,9 @@
  * 
  * Note: The main logic of the linear search algorithm is not included in this comment.
  */
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+
 
 
 #include <stdio.h>
