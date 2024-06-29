@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['main_7',['main',['../simple__sort_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'simple_sort.c']]]
+  ['main_9',['main',['../simple__sort_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'simple_sort.c']]]
 ];

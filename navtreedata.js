@@ -25,28 +25,36 @@
 var NAVTREE =
 [
   [ "C Algorithm Playground", "index.html", [
-    [ "Purpose", "index.html#autotoc_md7", null ],
-    [ "Structure", "index.html#autotoc_md8", null ],
-    [ "Documentation", "index.html#autotoc_md9", null ],
-    [ "Categories", "index.html#autotoc_md10", [
-      [ "Basic", "index.html#autotoc_md11", null ],
-      [ "Medium", "index.html#autotoc_md12", null ],
-      [ "Hard", "index.html#autotoc_md13", null ]
-    ] ],
-    [ "Additional Actions", "index.html#autotoc_md14", [
-      [ "Code Quality", "index.html#autotoc_md15", null ],
-      [ "Documentation", "index.html#autotoc_md16", null ]
-    ] ],
-    [ "Getting Started", "index.html#autotoc_md17", null ],
-    [ "Contributions", "index.html#autotoc_md18", null ],
-    [ "Contact", "index.html#autotoc_md19", null ],
-    [ "License", "index.html#autotoc_md20", null ],
-    [ "C Algorithm Playground Documentation", "md_mainpage.html", [
-      [ "Repository Structure", "md_mainpage.html#autotoc_md1", [
-        [ "Basic Algorithms", "md_mainpage.html#autotoc_md2", null ],
-        [ "Medium Algorithms", "md_mainpage.html#autotoc_md3", null ],
-        [ "Hard Algorithms", "md_mainpage.html#autotoc_md4", null ]
+    [ "C Algorithm Playground Documentation", "index.html", [
+      [ "Repository Structure", "index.html#autotoc_md1", [
+        [ "Basic Algorithms", "index.html#autotoc_md2", null ],
+        [ "Medium Algorithms", "index.html#autotoc_md3", null ],
+        [ "Hard Algorithms", "index.html#autotoc_md4", null ]
       ] ]
+    ] ],
+    [ "C Algorithm Playground", "md_README.html", [
+      [ "Purpose", "md_README.html#autotoc_md7", null ],
+      [ "Structure", "md_README.html#autotoc_md8", null ],
+      [ "Documentation", "md_README.html#autotoc_md9", null ],
+      [ "Categories", "md_README.html#autotoc_md10", [
+        [ "Basic", "md_README.html#autotoc_md11", null ],
+        [ "Medium", "md_README.html#autotoc_md12", null ],
+        [ "Hard", "md_README.html#autotoc_md13", null ]
+      ] ],
+      [ "Additional Actions", "md_README.html#autotoc_md14", [
+        [ "Code Quality", "md_README.html#autotoc_md15", null ],
+        [ "Documentation", "md_README.html#autotoc_md16", null ]
+      ] ],
+      [ "Getting Started", "md_README.html#autotoc_md17", null ],
+      [ "Contributions", "md_README.html#autotoc_md18", null ],
+      [ "Contact", "md_README.html#autotoc_md19", null ],
+      [ "License", "md_README.html#autotoc_md20", null ]
+    ] ],
+    [ "Searching Algorithms", "md_searching_README.html", [
+      [ "Algorithms Included", "md_searching_README.html#autotoc_md23", null ]
+    ] ],
+    [ "Sorting Algorithms", "md_sorting_README.html", [
+      [ "Algorithms Included", "md_sorting_README.html#autotoc_md25", null ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
