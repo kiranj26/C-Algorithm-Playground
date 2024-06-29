@@ -7,3 +7,4 @@ This directory contains implementations of various searching algorithms in C. Ea
 - `binary-search-simple.c`: Binary Search Algorithm
 - `jump-search-simple.c`: Jump Search Algorithm
 - `linear-search-simple.c`: Linear Search Algorithm
+- `linear_search_sentinel` : Linear Search Sentinel
