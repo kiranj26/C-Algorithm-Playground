@@ -6,6 +6,7 @@ var files_dup =
     [ "insertion_sort_iterative.c", "insertion__sort__iterative_8c.html", "insertion__sort__iterative_8c" ],
     [ "insertion_sort_recursive.c", "insertion__sort__recursive_8c.html", "insertion__sort__recursive_8c" ],
     [ "jump_search_simple.c", "jump__search__simple_8c.html", "jump__search__simple_8c" ],
+    [ "linear_search_sentinel.c", "linear__search__sentinel_8c.html", "linear__search__sentinel_8c" ],
     [ "linear_search_simple.c", "linear__search__simple_8c.html", "linear__search__simple_8c" ],
     [ "merge_sort.c", "merge__sort_8c.html", "merge__sort_8c" ],
     [ "selection_sort_iterative.c", "selection__sort__iterative_8c.html", "selection__sort__iterative_8c" ],
