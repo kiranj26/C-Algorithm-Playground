@@ -1,38 +1,70 @@
-
 /*
 Author: Kiran
-Description: This program implements the Jump Search algorithm, which is used to search for an element in a sorted array. It works by jumping ahead by a fixed step size and then performing a linear search in the subarray where the element might be present. This algorithm is efficient for large arrays and provides better performance than linear search.
+Description: This program implements the Jump Search algorithm, which is used to search for an element in a sorted array. 
+It works by jumping ahead by a fixed step size and then performing a linear search in the subarray where the element might be present.
+This algorithm is efficient for large arrays and provides better performance than linear search.
 
 Performance:
+Old Approach:
+- Time Complexity: O(n/m + m) where n is the size of the array and m is the fixed step size (4 in this case).
+- Space Complexity: O(1), as it uses a constant amount of extra space.
+- The algorithm performs better than linear search for large arrays, but the fixed step size might not always be optimal.
+
+New Approach:
 - Time Complexity: O(sqrt(n)), where n is the size of the array.
 - Space Complexity: O(1), as it uses a constant amount of extra space.
-- The algorithm performs better than linear search for large arrays, as it reduces the number of comparisons required.
+- This approach uses the square root of the array size as the step size, generally providing better performance due to fewer comparisons.
 */
 
 #include <stdio.h>
+#include <math.h>
 
+// Old Approach
+/*
 int jumpSearch(int arr[], int n, int target) {
-    // Implement the jump search algorithm here
-    // ...
-    for (int i = 0 ; i < n ; i = i+4)
-    {
-        if (target == arr[i])
-        {
-            return i;
-        }else{
-            if (target < arr[i])
-            {
-                for(int j = i - 4; j < i ; j++)
-                {
-                    if (target == arr[j])
-                    {
-                        return j;
+    // Loop through the array with a fixed step size of 4
+    for (int i = 0 ; i < n ; i = i + 4) {
+        // If the target is found at the current step
+        if (target == arr[i]) {
+            return i;  // Return the index of the target
+        } else {
+            // If the target is less than the current step, perform linear search in the previous block
+            if (target < arr[i]) {
+                for(int j = i - 4; j < i ; j++) {
+                    if (target == arr[j]) {
+                        return j;  // Return the index of the target if found
                     }
                 }
             }
         }
     }
-    return -1;
+    return -1;  // Return -1 if the target is not found
+}
+*/
+
+// New Approach
+int jumpSearch(int arr[], int n, int target) {
+    // Calculate the optimal step size as the square root of the array length
+    int step = sqrt(n);
+    int prev = 0;
+
+    // Jump through the array in blocks of 'step' size
+    while (arr[(int)fmin(step, n) - 1] < target) {
+        prev = step;  // Move the previous block to the current step
+        step += sqrt(n);  // Update the step to the next block
+        if (prev >= n) {  // If the previous block exceeds array bounds
+            return -1;  // Return -1 as the target is not present
+        }
+    }
+
+    // Perform linear search in the block where the target may be present
+    for (int i = prev; i < fmin(step, n); i++) {
+        if (arr[i] == target) {  // If the target is found
+            return i;  // Return the index of the target
+        }
+    }
+
+    return -1;  // Return -1 if the target is not found
 }
 
 int main() {
