@@ -1,5 +1,5 @@
 /**
- * @file binary_search.c
+ * @file binary_search_simple.c
  * @brief Implementation of the Binary Search Algorithm.
  *
  * @author Kiran

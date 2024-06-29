@@ -1,5 +1,5 @@
 /**
- * @file jump_search.c
+ * @file jump_search_simple.c
  * @brief Implementation of the Jump Search Algorithm.
  *
  * @author Kiran

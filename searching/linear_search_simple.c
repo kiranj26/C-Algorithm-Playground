@@ -1,5 +1,5 @@
 /**
- * @file linear_search.c
+ * @file linear_search_simple.c
  * @brief Implementation of the Linear Search Algorithm.
  *
  * @author Kiran
