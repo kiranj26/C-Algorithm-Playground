@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-I.
+CFLAGS=-I. -Wall -Wextra -std=c99
 LDFLAGS=-lm
 
 # Function to do a recursive wildcard search
