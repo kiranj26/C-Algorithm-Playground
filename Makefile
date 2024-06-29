@@ -12,10 +12,10 @@ EXEC=$(SRC:.c=)
 all: $(EXEC)
 
 %: %.o
-	$(CC) -o $@ $< $(LDFLAGS)
+	$(CC) -o $@ $< $(LDFLAGS) $(CFLAGS)
 
 %.o: %.c
-	$(CC) -c $< -o $@ $(CFLAGS)
+	$(CC) -c $< -o $@ $(CFLAGS) $(LDFLAGS)
 
 clean:
 	rm -f $(OBJ) $(EXEC)
