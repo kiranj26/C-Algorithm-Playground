@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['selection_5fsort_53',['selection_sort',['../selection__sort__iterative_8c.html#adbda67c9f851c6325cc505d55b9290f3',1,'selection_sort_iterative.c']]],
-  ['selection_5fsort_5frecursive_54',['selection_sort_recursive',['../selection__sort__recursive_8c.html#a080d0bfc76fdeeb8686e2f588be8492c',1,'selection_sort_recursive.c']]],
-  ['selection_5fsort_5fstrings_55',['selection_sort_strings',['../selection__sort__strings_8c.html#a6a9fa383f242f0bd32f9b340adf0858e',1,'selection_sort_strings.c']]],
-  ['shift_5fright_5fby_5f1_56',['shift_right_by_1',['../selection__sort__stable_8c.html#a80bf1bf6d6c9935a6aa34447135e161f',1,'selection_sort_stable.c']]],
-  ['stable_5fselection_5fsort_57',['stable_selection_sort',['../selection__sort__stable_8c.html#a2229e405ec0a17240099dc88285d1d13',1,'selection_sort_stable.c']]]
+  ['printarray_60',['printArray',['../merge__sort_8c.html#a64b6375a23e1cee8fcfff2d2dbe5d553',1,'merge_sort.c']]],
+  ['printf_5farray_61',['printf_array',['../bubble__sort_8c.html#a7c1a7dde1f585a1149538a61ce16c7bd',1,'printf_array(int *arr, int len):&#160;bubble_sort.c'],['../bubble__sort__recursive_8c.html#a7c1a7dde1f585a1149538a61ce16c7bd',1,'printf_array(int *arr, int len):&#160;bubble_sort_recursive.c'],['../insertion__sort__iterative_8c.html#addb98b194193c6ac85654377db11800c',1,'printf_array(int *arr, int length):&#160;insertion_sort_iterative.c'],['../insertion__sort__recursive_8c.html#addb98b194193c6ac85654377db11800c',1,'printf_array(int *arr, int length):&#160;insertion_sort_recursive.c'],['../selection__sort__recursive_8c.html#addb98b194193c6ac85654377db11800c',1,'printf_array(int *arr, int length):&#160;selection_sort_recursive.c'],['../selection__sort__stable_8c.html#a7813c46115f159d2e8e9575701b3ca0f',1,'printf_array(int *arr, int n):&#160;selection_sort_stable.c']]],
+  ['printf_5farray_5fstrings_62',['printf_array_strings',['../selection__sort__strings_8c.html#a8c54a407a117f2e4a3c21725e45bc0bc',1,'selection_sort_strings.c']]],
+  ['printing_5farrays_63',['printing_arrays',['../selection__sort__iterative_8c.html#a1feea7a6052ef52d8e140142500c2b02',1,'selection_sort_iterative.c']]]
 ];
