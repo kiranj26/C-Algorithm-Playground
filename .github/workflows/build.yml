@@ -10,8 +10,15 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Display Environment Info
+      run: |
+        gcc --version
+        uname -a
+
     - name: Build with Makefile
-      run: make LDFLAGS="-lm"
+      run: |
+        echo "Running make with LDFLAGS=-lm"
+        make LDFLAGS="-lm" VERBOSE=1
 
     - name: Run Tests
       run: |
