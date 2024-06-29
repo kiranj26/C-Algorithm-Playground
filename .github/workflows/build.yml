@@ -37,9 +37,15 @@ jobs:
     - name: Generate Documentation
       run: doxygen Doxyfile
 
-    - name: Upload Documentation
-      uses: actions/upload-artifact@v2
-      with:
-        name: documentation
-        path: docs/html
-        retention-days: 5
+    - name: Deploy to GitHub Pages
+      if: success()
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git clone --branch gh-pages https://github.com/${{ github.repository }} gh-pages
+        cd gh-pages
+        rm -rf *
+        cp -r ../docs/html/* .
+        git add .
+        git commit -m "Update documentation"
+        git push origin gh-pages

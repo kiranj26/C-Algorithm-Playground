@@ -3,6 +3,7 @@
 ![Build Status](https://github.com/kiranj26/C-Algorithm-Playground/actions/workflows/build.yml/badge.svg)
 [![Code Quality](https://img.shields.io/badge/code%20quality-cppcheck-brightgreen)](http://cppcheck.sourceforge.net/)
 [![Documentation](https://img.shields.io/badge/documentation-doxygen-brightgreen)](https://www.doxygen.nl/index.html)
+![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue)
 
 Welcome to the C Algorithm Playground! This repository is a personal project to explore and implement various algorithms in C, inspired by the open-source repository [TheAlgorithms/C](https://github.com/TheAlgorithms/C).
 
@@ -18,6 +19,10 @@ The purpose of this repository is to:
 The repository is structured into different categories of algorithms, each with its own directory. Each directory contains:
 - The C source code file for the algorithm.
 - A README file explaining the algorithm and its implementation.
+
+## Documentation
+
+The full documentation for this project can be found [here](https://kiranj26.github.io/C-Algorithm-Playground/).
 
 ## Categories
 
