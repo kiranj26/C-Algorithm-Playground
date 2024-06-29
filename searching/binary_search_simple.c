@@ -47,6 +47,33 @@ int binarySearch(int arr[], int left, int right, int target) {
     return -1;  // Target not found in the array
 }
 
+/**
+ * @brief 
+ * @param arr[] Sorted array to search.
+ * @param left Starting index of the search range.
+ * @param right Ending index of the search range.
+ * @param target Element to search for.
+ * @return Index of the target element if found, otherwise -1.
+ */
+/* int recursiveBinarySearch(int arr[], int left, int right, int target) {
+    if (left <= right) {
+        // Calculate the middle index
+        int mid = left + (right - left) / 2;
+        if (arr[mid] == target) {
+            return mid;  // Target found at index mid
+        } else if (arr[mid] < target) {
+            return recursiveBinarySearch(arr, mid + 1, right, target);  // Target is in the right half of the array
+        } else {
+            return recursiveBinarySearch(arr, left, mid - 1, target);  // Target is in the left half of the array
+        }
+    }
+    return -1;  // Target not found in the array
+} */
+
+/**
+ * @brief Main Function
+ * @return 0 on success.
+ */
 int main() {
     // Test cases
     int arr[] = {2, 4, 6, 8, 10};
