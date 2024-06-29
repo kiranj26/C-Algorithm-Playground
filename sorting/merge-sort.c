@@ -1,12 +1,13 @@
 /**
- * Merge Sort Algorithm
- * DIVIDE CONQUER MERGE
+ * @file merge_sort.c
+ * @brief Implementation of the Merge Sort Algorithm.
  *
+ * @details
  * Merge Sort is a divide-and-conquer algorithm that divides an array into two halves,
  * sorts them separately, and then merges the sorted halves to produce a sorted array.
  * It follows the principle of "divide and conquer" to solve the problem.
  *
- * Performance:
+ * @section Performance
  * - Time Complexity: O(n log n)
  * - Space Complexity: O(n)
  *
@@ -14,7 +15,7 @@
  * It is efficient for sorting large data sets and is widely used in various applications.
  * However, it requires additional space for the temporary arrays used during the merging process.
  *
- * Steps of Merge Sort:
+ * @section Steps of Merge Sort
  * 1. Divide the unsorted array into two halves.
  *    - This is done recursively until each subarray contains a single element.
  *    - The `mergeSort` function is called with the left and right indices of the array/subarray.
@@ -28,7 +29,7 @@
  *    - It creates two temporary arrays to hold the elements of the left and right subarrays.
  *    - It then merges these temporary arrays back into the original array in sorted order.
  *
- * Detailed Explanation of `merge` Function:
+ * @section Detailed Explanation of `merge` Function
  * - The merge function merges two sorted subarrays of arr[].
  * - The first subarray is arr[l..m] and the second subarray is arr[m+1..r].
  * - It creates two temporary arrays L[] and R[] to hold the elements of the left and right subarrays.
@@ -36,20 +37,22 @@
  * - It then merges the temporary arrays back into the original array in sorted order.
  * - Finally, it copies any remaining elements of L[] and R[] into the original array.
  *
- * Example Usage:
+ * @section Example Usage
+ * @code
  * int arr[] = {64, 34, 25, 12, 22, 11, 90};
  * int n = sizeof(arr) / sizeof(arr[0]);
  * mergeSort(arr, 0, n - 1);
+ * @endcode
  *
  * This will sort the array in ascending order.
  *
- * Time Complexity:
- *  Best Case: O(n log n), When the array is already sorted or nearly sorted.
- * Average Case: O(n log n), When the array is randomly ordered.
- * Worst Case: O(n log n), When the array is sorted in reverse order.
- * Space Complexity: O(n), Additional space is required for the temporary array used during merging.
-
- * References:
+ * @section Time Complexity
+ * - Best Case: O(n log n) - When the array is already sorted or nearly sorted.
+ * - Average Case: O(n log n) - When the array is randomly ordered.
+ * - Worst Case: O(n log n) - When the array is sorted in reverse order.
+ * - Space Complexity: O(n) - Additional space is required for the temporary array used during merging.
+ *
+ * @section References
  * - Introduction to Algorithms by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein
  * - GeeksforGeeks (https://www.geeksforgeeks.org/merge-sort/)
  */
@@ -57,7 +60,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Function to print an array
+/**
+ * @brief Prints the elements of an array.
+ * 
+ * This function iterates through the array and prints each element.
+ * 
+ * @param arr The array to be printed.
+ * @param length The number of elements in the array.
+ */
 void printArray(int *arr, int length) {
     for (int i = 0; i < length; i++) {
         printf("%d ", arr[i]);
@@ -65,9 +75,20 @@ void printArray(int *arr, int length) {
     printf("\n");
 }
 
-// Function to merge two subarrays of arr[].
-// First subarray is arr[l..m].
-// Second subarray is arr[m+1..r].
+/**
+ * @brief Merges two subarrays of arr[].
+ * 
+ * This function merges two sorted subarrays of arr[]. The first subarray is arr[l..m] 
+ * and the second subarray is arr[m+1..r]. It creates two temporary arrays L[] and R[] 
+ * to hold the elements of the left and right subarrays, copies the elements from the 
+ * original array to these temporary arrays, and then merges the temporary arrays back 
+ * into the original array in sorted order.
+ * 
+ * @param arr The array to be sorted.
+ * @param l The starting index of the first subarray.
+ * @param m The ending index of the first subarray.
+ * @param r The ending index of the second subarray.
+ */
 void merge(int arr[], int l, int m, int r) {
     // Calculate the sizes of the two subarrays
     int n1 = m - l + 1;
@@ -112,7 +133,16 @@ void merge(int arr[], int l, int m, int r) {
     }
 }
 
-// Recursive function to sort an array using merge sort
+/**
+ * @brief Recursive function to sort an array using merge sort.
+ * 
+ * This function recursively sorts an array using merge sort. It divides the array into 
+ * two halves, recursively sorts each half, and then merges the sorted halves.
+ * 
+ * @param arr The array to be sorted.
+ * @param l The starting index of the array.
+ * @param r The ending index of the array.
+ */
 void mergeSort(int arr[], int l, int r) {
     if (l < r) {
         // Find the middle point of the array

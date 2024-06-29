@@ -1,23 +1,25 @@
 /**
- * Insertion Sort
- * 
- * Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time. 
- * It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. 
+ * @file insertion_sort.c
+ * @brief Implementation of the Insertion Sort Algorithm.
+ *
+ * @details
+ * Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time.
+ * It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort.
  * However, insertion sort provides several advantages such as simplicity, stability, and efficiency for small data sets or partially sorted arrays.
- * 
- * Algorithm:
+ *
+ * @section Algorithm
  * 1. Start with the second element of the array.
  * 2. Compare the current element with the one before it.
  * 3. If the current element is smaller, shift the larger element to the right.
  * 4. Repeat step 3 until the current element is in its correct position.
  * 5. Move to the next element and repeat steps 2-4 until the entire array is sorted.
- * 
- * Performance:
+ *
+ * @section Performance
  * - Best Case: O(n) - when the array is already sorted.
  * - Average Case: O(n^2) - when the array is partially sorted or contains random elements.
  * - Worst Case: O(n^2) - when the array is sorted in reverse order.
- * 
- * Note: Insertion sort is an in-place sorting algorithm, meaning it does not require any additional memory space.
+ *
+ * @note Insertion sort is an in-place sorting algorithm, meaning it does not require any additional memory space.
  */
 
 #include <stdio.h>
@@ -58,7 +60,7 @@ void insertion_sort(int *arr, int n) {
             arr[j + 1] = arr[j];
             j = j - 1;
         }
-        arr[j + 1] = key; // Place key at after the element just smaller than it.
+        arr[j + 1] = key; // Place key after the element just smaller than it.
     }
 }
 

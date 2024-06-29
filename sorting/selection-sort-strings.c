@@ -1,5 +1,5 @@
 /**
- * @file selection-sort-strings.c
+ * @file selection_sort_strings.c
  * @brief Implementation of selection sort for strings.
  * @version 0.1
  * @date 2024-06-23
@@ -13,17 +13,16 @@
  * This implementation sorts an array of strings in ascending order, comparing the strings lexicographically 
  * and swapping their pointers to maintain the desired order.
  * 
- * Time Complexity: O(n^2), where n is the number of elements in the array.
- * Space Complexity: O(1)
+ * @section Performance
+ * - Time Complexity: O(n^2), where n is the number of elements in the array.
+ * - Space Complexity: O(1)
  * 
  * @param arr The array of strings to be sorted.
  * @param n The number of elements in the array.
  * 
- * @author
- * Kiran Jojare
+ * @see https://www.geeksforgeeks.org/stable-selection-sort/?ref=lbp
  * 
- * @see
- * https://www.geeksforgeeks.org/stable-selection-sort/?ref=lbp
+ * @author Kiran Jojare
  */
 
 #include <string.h>

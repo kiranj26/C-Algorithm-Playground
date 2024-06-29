@@ -1,20 +1,22 @@
 /**
- * Recursive Insertion Sort
- * 
- * Recursive Insertion Sort is a sorting algorithm that builds the final sorted array one element at a time. 
- * It is a variation of the Insertion Sort algorithm, but instead of using nested loops, it uses recursion to 
- * sort the array. The algorithm divides the array into a sorted and an unsorted part. It then takes the first 
- * element from the unsorted part and inserts it into its correct position in the sorted part. This process is 
+ * @file recursive_insertion_sort.c
+ * @brief Implementation of the Recursive Insertion Sort Algorithm.
+ *
+ * @details
+ * Recursive Insertion Sort is a sorting algorithm that builds the final sorted array one element at a time.
+ * It is a variation of the Insertion Sort algorithm, but instead of using nested loops, it uses recursion to
+ * sort the array. The algorithm divides the array into a sorted and an unsorted part. It then takes the first
+ * element from the unsorted part and inserts it into its correct position in the sorted part. This process is
  * repeated until the entire array is sorted.
- * 
- * Performance:
+ *
+ * @section Performance
  * - Best Case Time Complexity: O(n)
  * - Average Case Time Complexity: O(n^2)
  * - Worst Case Time Complexity: O(n^2)
  * - Space Complexity: O(n) (due to the recursive call stack)
- * 
- * The performance of Recursive Insertion Sort is similar to that of the regular Insertion Sort algorithm. 
- * It performs well for small arrays or partially sorted arrays, but it becomes inefficient for large arrays 
+ *
+ * The performance of Recursive Insertion Sort is similar to that of the regular Insertion Sort algorithm.
+ * It performs well for small arrays or partially sorted arrays, but it becomes inefficient for large arrays
  * or arrays with a random order of elements.
  */
 

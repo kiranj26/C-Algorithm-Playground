@@ -1,6 +1,8 @@
-/*
- * Recursive Bubble Sort Algorithm
+/**
+ * @file recursive_bubble_sort.c
+ * @brief Implementation of the Recursive Bubble Sort Algorithm.
  *
+ * @details
  * Bubble sort is a simple comparison-based sorting algorithm. It repeatedly
  * steps through the list, compares adjacent elements, and swaps them if they
  * are in the wrong order. The pass through the list is repeated until the
@@ -12,7 +14,7 @@
  *   to the end of the array. Then, recursively sort the remaining unsorted part
  *   of the array.
  *
- * Performance:
+ * @section Performance
  * - Best Case Time Complexity: O(n) - when the input array is already sorted.
  * - Average Case Time Complexity: O(n^2) - when the input array is randomly ordered.
  * - Worst Case Time Complexity: O(n^2) - when the input array is reverse sorted.

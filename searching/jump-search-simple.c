@@ -1,48 +1,37 @@
-/*
-Author: Kiran
-Description: This program implements the Jump Search algorithm, which is used to search for an element in a sorted array. 
-It works by jumping ahead by a fixed step size and then performing a linear search in the subarray where the element might be present.
-This algorithm is efficient for large arrays and provides better performance than linear search.
-
-Performance:
-Old Approach:
-- Time Complexity: O(n/m + m) where n is the size of the array and m is the fixed step size (4 in this case).
-- Space Complexity: O(1), as it uses a constant amount of extra space.
-- The algorithm performs better than linear search for large arrays, but the fixed step size might not always be optimal.
-
-New Approach:
-- Time Complexity: O(sqrt(n)), where n is the size of the array.
-- Space Complexity: O(1), as it uses a constant amount of extra space.
-- This approach uses the square root of the array size as the step size, generally providing better performance due to fewer comparisons.
-*/
+/**
+ * @file jump_search.c
+ * @brief Implementation of the Jump Search Algorithm.
+ *
+ * @author Kiran
+ * @date 2021-09-29
+ *
+ * @details
+ * This program implements the Jump Search algorithm, which is used to search for an element in a sorted array.
+ * It works by jumping ahead by a fixed step size and then performing a linear search in the subarray where the element might be present.
+ * This algorithm is efficient for large arrays and provides better performance than linear search.
+ *
+ * @section Performance
+ * Old Approach:
+ * - Time Complexity: O(n/m + m) where n is the size of the array and m is the fixed step size (4 in this case).
+ * - Space Complexity: O(1), as it uses a constant amount of extra space.
+ * - The algorithm performs better than linear search for large arrays, but the fixed step size might not always be optimal.
+ *
+ * New Approach:
+ * - Time Complexity: O(sqrt(n)), where n is the size of the array.
+ * - Space Complexity: O(1), as it uses a constant amount of extra space.
+ * - This approach uses the square root of the array size as the step size, generally providing better performance due to fewer comparisons.
+ */
 
 #include <stdio.h>
 #include <math.h>
 
-// Old Approach
-/*
-int jumpSearch(int arr[], int n, int target) {
-    // Loop through the array with a fixed step size of 4
-    for (int i = 0 ; i < n ; i = i + 4) {
-        // If the target is found at the current step
-        if (target == arr[i]) {
-            return i;  // Return the index of the target
-        } else {
-            // If the target is less than the current step, perform linear search in the previous block
-            if (target < arr[i]) {
-                for(int j = i - 4; j < i ; j++) {
-                    if (target == arr[j]) {
-                        return j;  // Return the index of the target if found
-                    }
-                }
-            }
-        }
-    }
-    return -1;  // Return -1 if the target is not found
-}
-*/
-
-// New Approach
+/**
+ * @brief Jump search function.
+ * @param arr[] Sorted array to search.
+ * @param n Size of the array.
+ * @param target Element to search for.
+ * @return Index of the target element if found, otherwise -1.
+ */
 int jumpSearch(int arr[], int n, int target) {
     // Calculate the optimal step size as the square root of the array length
     int step = sqrt(n);

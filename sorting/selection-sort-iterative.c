@@ -1,18 +1,20 @@
-/*
- * Ieterative Selection Sort
+/**
+ * @file iterative_selection_sort.c
+ * @brief Implementation of the Iterative Selection Sort Algorithm.
  *
+ * @details
  * Selection sort is a simple comparison-based sorting algorithm. It works by dividing the input
  * array into two parts: the sorted part at the left end and the unsorted part at the right end.
  * Initially, the sorted part is empty and the unsorted part is the entire array. The algorithm
  * repeatedly selects the smallest (or largest) element from the unsorted part and moves it to the
  * sorted part. This process continues until the unsorted part becomes empty.
  *
- * Time Complexity:
- * - Best Case: O(n^2)
- * - Average Case: O(n^2)
- * - Worst Case: O(n^2)
- *
- * Space Complexity: O(1)
+ * @section Performance
+ * - Time Complexity: O(n^2)
+ *   - Best Case: O(n^2)
+ *   - Average Case: O(n^2)
+ *   - Worst Case: O(n^2)
+ * - Space Complexity: O(1)
  *
  * Note: Selection sort is not suitable for large data sets due to its quadratic time complexity.
  * However, it performs well for small lists or when the auxiliary memory is limited.
@@ -23,7 +25,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Function to print the elements of an array
+/**
+ * @brief Prints the elements of an array.
+ * 
+ * This function iterates through the array and prints each element.
+ * 
+ * @param arr The array to be printed.
+ * @param length The number of elements in the array.
+ */
 void printing_arrays(int * arr, int length){
     for (int i = 0; i < length; i++) {
         printf("%d ", arr[i]);
@@ -31,7 +40,16 @@ void printing_arrays(int * arr, int length){
     printf("\n");
 }
 
-// Function to perform selection sort on an array
+/**
+ * @brief Sorts an array using selection sort algorithm.
+ * 
+ * This function sorts an array in ascending order using the selection sort algorithm.
+ * It repeatedly selects the minimum element from the unsorted part of the array and moves
+ * it to the sorted part.
+ * 
+ * @param arr The array to be sorted.
+ * @param length The number of elements in the array.
+ */
 void selection_sort(int * arr, int length)
 {
     // Traverse through all array elements

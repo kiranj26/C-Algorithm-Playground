@@ -1,50 +1,46 @@
 /**
- * Stable Selection Sort
- * 
+ * @file stable_selection_sort.c
+ * @brief Implementation of the Stable Selection Sort Algorithm.
+ *
+ * @details
  * This algorithm performs a stable sorting of an array using the Selection Sort technique.
  * It repeatedly selects the minimum element from the unsorted portion of the array and
  * inserts it at the beginning of the unsorted portion, maintaining the relative order
  * of equal elements.
- * 
- * Examples:
- * 
- * Example 1:
- * Input: [4A, 5, 3, 2, 4B, 1]
- * Output: [1, 2, 3, 4A, 4B, 5]
- * Explanation: In this example, the algorithm performs forward pushing instead of swapping
- * when inserting the minimum element in its correct place. This ensures that the relative
- * order of equal elements is maintained.
- * 
- * Performance:
- * 
+ *
+ * @section Performance
  * - Time Complexity: O(n^2)
  *   The algorithm has a worst-case time complexity of O(n^2), where n is the number of elements
  *   in the array. This is because it requires nested loops to compare and swap elements.
- * 
  * - Space Complexity: O(1)
  *   The algorithm has a constant space complexity as it does not require any additional data
  *   structures. It performs in-place sorting by swapping elements within the given array.
- * 
- * Note:
- * 
- * - Stability:
- *   The Stable Selection Sort algorithm is stable, meaning that it preserves the relative order
- *   of equal elements. If there are multiple elements with the same value, their order will be
- *   maintained after sorting. This property is useful in certain scenarios where the original
- *   order of equal elements needs to be preserved.
- * 
- * - Comparison with other sorting algorithms:
- *   The Stable Selection Sort algorithm is not as efficient as some other sorting algorithms,
- *   such as Quick Sort or Merge Sort. However, it has the advantage of being stable, which can
- *   be beneficial in certain situations. It is also relatively simple to implement and does not
- *   require additional memory. Therefore, it can be a good choice for small arrays or when stability
- *   is a requirement.
+ *
+ * @section Stability
+ * The Stable Selection Sort algorithm is stable, meaning that it preserves the relative order
+ * of equal elements. If there are multiple elements with the same value, their order will be
+ * maintained after sorting. This property is useful in certain scenarios where the original
+ * order of equal elements needs to be preserved.
+ *
+ * @note
+ * The Stable Selection Sort algorithm is not as efficient as some other sorting algorithms,
+ * such as Quick Sort or Merge Sort. However, it has the advantage of being stable, which can
+ * be beneficial in certain situations. It is also relatively simple to implement and does not
+ * require additional memory. Therefore, it can be a good choice for small arrays or when stability
+ * is a requirement.
  */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-// Function to print the elements of an array
+/**
+ * @brief Prints the elements of an array.
+ * 
+ * This function iterates through the array and prints each element.
+ * 
+ * @param arr The array to be printed.
+ * @param n The number of elements in the array.
+ */
 void printf_array(int *arr, int n) {
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
@@ -52,14 +48,32 @@ void printf_array(int *arr, int n) {
     printf("\n");
 }
 
-// Function to shift elements of the array to the right by one position
+/**
+ * @brief Shifts elements of the array to the right by one position.
+ * 
+ * This function shifts elements of the array from the start index to the end index to the right
+ * by one position. It is used to make space for the minimum element during stable selection sort.
+ * 
+ * @param arr The array to be shifted.
+ * @param start The starting index of the shift.
+ * @param end The ending index of the shift.
+ */
 void shift_right_by_1(int *arr, int start, int end) {
     for (int i = end; i > start; i--) {
         arr[i] = arr[i - 1];
     }
 }
 
-// Function to perform stable selection sort
+/**
+ * @brief Performs stable selection sort on an array.
+ * 
+ * This function sorts an array in ascending order using the stable selection sort algorithm.
+ * It repeatedly selects the minimum element from the unsorted portion of the array, shifts the
+ * elements to the right, and inserts the minimum element at the beginning of the unsorted portion.
+ * 
+ * @param arr The array to be sorted.
+ * @param n The number of elements in the array.
+ */
 void stable_selection_sort(int *arr, int n) {
     for (int i = 0; i < n; i++) {
         int min_val_index = i;
