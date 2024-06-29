@@ -1,5 +1,6 @@
 CC=gcc
 CFLAGS=-I.
+LDFLAGS=-lm
 
 # Function to do a recursive wildcard search
 rwildcard=$(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2)$(filter $(subst *,%,$2),$d))
@@ -11,7 +12,7 @@ EXEC=$(SRC:.c=)
 all: $(EXEC)
 
 %: %.o
-	$(CC) -o $@ $<
+	$(CC) -o $@ $< $(LDFLAGS)
 
 %.o: %.c
 	$(CC) -c $< -o $@ $(CFLAGS)
