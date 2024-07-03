@@ -5,6 +5,7 @@ var files_dup =
     [ "bubble_sort_recursive.c", "bubble__sort__recursive_8c.html", "bubble__sort__recursive_8c" ],
     [ "insertion_sort_iterative.c", "insertion__sort__iterative_8c.html", "insertion__sort__iterative_8c" ],
     [ "insertion_sort_recursive.c", "insertion__sort__recursive_8c.html", "insertion__sort__recursive_8c" ],
+    [ "interpolation_search_simple.c", "interpolation__search__simple_8c.html", "interpolation__search__simple_8c" ],
     [ "jump_search_simple.c", "jump__search__simple_8c.html", "jump__search__simple_8c" ],
     [ "linear_search_sentinel.c", "linear__search__sentinel_8c.html", "linear__search__sentinel_8c" ],
     [ "linear_search_simple.c", "linear__search__simple_8c.html", "linear__search__simple_8c" ],
