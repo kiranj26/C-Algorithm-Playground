@@ -51,10 +51,10 @@ var NAVTREE =
       [ "License", "md_README.html#autotoc_md20", null ]
     ] ],
     [ "Searching Algorithms", "md_searching_README.html", [
-      [ "Algorithms Included", "md_searching_README.html#autotoc_md27", null ]
+      [ "Algorithms Included", "md_searching_README.html#autotoc_md31", null ]
     ] ],
     [ "Sorting Algorithms", "md_sorting_README.html", [
-      [ "Algorithms Included", "md_sorting_README.html#autotoc_md29", null ]
+      [ "Algorithms Included", "md_sorting_README.html#autotoc_md33", null ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],

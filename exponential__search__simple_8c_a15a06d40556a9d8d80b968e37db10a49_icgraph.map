@@ -1,0 +1,4 @@
+<map id="exponential_search" name="exponential_search">
+<area shape="rect" id="node1" title="Performs an exponential search on an array to find the index of a given element." alt="" coords="108,5,257,32"/>
+<area shape="rect" id="node2" href="$exponential__search__simple_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Main function to demonstrate the use of exponential search." alt="" coords="5,5,60,32"/>
+</map>

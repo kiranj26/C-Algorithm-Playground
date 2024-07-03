@@ -30,6 +30,7 @@ var menudata={children:[
 {text:"File Members",url:"globals.html",children:[
 {text:"All",url:"globals.html",children:[
 {text:"b",url:"globals.html#index_b"},
+{text:"e",url:"globals.html#index_e"},
 {text:"i",url:"globals.html#index_i"},
 {text:"j",url:"globals.html#index_j"},
 {text:"l",url:"globals.html#index_l"},
@@ -40,6 +41,7 @@ var menudata={children:[
 {text:"t",url:"globals.html#index_t"}]},
 {text:"Functions",url:"globals_func.html",children:[
 {text:"b",url:"globals_func.html#index_b"},
+{text:"e",url:"globals_func.html#index_e"},
 {text:"i",url:"globals_func.html#index_i"},
 {text:"j",url:"globals_func.html#index_j"},
 {text:"l",url:"globals_func.html#index_l"},

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['jump_5fsearch_5fsimple_2ec_49',['jump_search_simple.c',['../jump__search__simple_8c.html',1,'']]]
+  ['insertion_5fsort_5fiterative_2ec_49',['insertion_sort_iterative.c',['../insertion__sort__iterative_8c.html',1,'']]],
+  ['insertion_5fsort_5frecursive_2ec_50',['insertion_sort_recursive.c',['../insertion__sort__recursive_8c.html',1,'']]],
+  ['interpolation_5fsearch_5fsimple_2ec_51',['interpolation_search_simple.c',['../interpolation__search__simple_8c.html',1,'']]]
 ];

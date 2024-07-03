@@ -115,7 +115,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> ()</td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implementation of the Interpolation Search Algorithm. </p>
 <p>Interpolation search is an algorithm for searching for a specific value within a sorted array. This search algorithm works on the principle of predicting where the value being searched for is likely to be located within the list by using a linear interpolation formula. The key idea is that if the values in the array are uniformly distributed, the time complexity can be better than binary search.</p>
-<h2><a class="anchor" id="autotoc_md22"></a>
+<h2><a class="anchor" id="autotoc_md26"></a>
 Algorithm Overview</h2>
 <p>The formula used for predicting the position of the target value is: pos = lo + [(hi - lo) / (A[hi] - A[lo])] * (x - A[lo]) where:</p><ul>
 <li>pos is the position where the target value is likely to be,</li>
@@ -124,19 +124,19 @@ Algorithm Overview</h2>
 <li>x is the target value.</li>
 </ul>
 <p>The algorithm checks the value at the calculated position. If it matches the target value, the search is successful. If the target value is larger, the search continues in the right sub-array, and if the target value is smaller, the search continues in the left sub-array. This process is repeated until the value is found or the sub-array becomes empty. The search is recursive, with the function calling itself with updated bounds based on the comparison between the target value and the value at the calculated position.</p>
-<h2><a class="anchor" id="autotoc_md23"></a>
+<h2><a class="anchor" id="autotoc_md27"></a>
 Differences from Binary Search</h2>
 <ul>
 <li>Binary search always checks the middle element of the array, while interpolation search may check different places based on the estimated position of the target value.</li>
 <li>Interpolation search is more efficient than binary search for sorted arrays with uniformly distributed values, as it can reach the target value faster. However, for arrays with non-uniform distributions, binary search may be more efficient.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md24"></a>
+<h2><a class="anchor" id="autotoc_md28"></a>
 Time Complexity</h2>
 <ul>
 <li>Average: O(log(log n)) for uniformly distributed datasets,</li>
 <li>Worst-case: O(n) for non-uniformly distributed datasets or when the calculation does not lead to a closer approximation of the target's position.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md25"></a>
+<h2><a class="anchor" id="autotoc_md29"></a>
 Space Complexity</h2>
 <ul>
 <li>O(1), as it requires a constant amount of space. The recursive implementation may have a call stack size up to O(log n) in the best case or O(n) in the worst case.</li>

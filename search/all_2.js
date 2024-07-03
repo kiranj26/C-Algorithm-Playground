@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['insertion_5fsort_9',['insertion_sort',['../insertion__sort__iterative_8c.html#a52f66cec33b12c2bd00e44bc891cd4de',1,'insertion_sort_iterative.c']]],
-  ['insertion_5fsort_5fiterative_2ec_10',['insertion_sort_iterative.c',['../insertion__sort__iterative_8c.html',1,'']]],
-  ['insertion_5fsort_5frecursive_2ec_11',['insertion_sort_recursive.c',['../insertion__sort__recursive_8c.html',1,'']]],
-  ['interpolation_5fsearch_12',['interpolation_search',['../interpolation__search__simple_8c.html#ad6e2935f389f2bf78c905ae7973e84c8',1,'interpolation_search_simple.c']]],
-  ['interpolation_5fsearch_5fsimple_2ec_13',['interpolation_search_simple.c',['../interpolation__search__simple_8c.html',1,'']]]
+  ['exponential_5fsearch_9',['exponential_search',['../exponential__search__simple_8c.html#a15a06d40556a9d8d80b968e37db10a49',1,'exponential_search_simple.c']]],
+  ['exponential_5fsearch_5fsimple_2ec_10',['exponential_search_simple.c',['../exponential__search__simple_8c.html',1,'']]]
 ];
