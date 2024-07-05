@@ -1,5 +1,5 @@
 /**
- * @file largest_three_elements_in_an_array.c
+ * @file largest_three_elements_in_array.c
  * @brief C program to find the largest three elements in an array.
  * 
  * This program takes an array of integers and finds the three largest elements 
