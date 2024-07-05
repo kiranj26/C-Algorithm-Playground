@@ -16,6 +16,13 @@
  * 
  * @author 
  * Kiran Jojare
+ * 
+ * @complexity
+ * Time Complexity: O(n), where n is the number of elements in the array.
+ * The algorithm makes a single pass through the array to determine the three largest elements.
+ * 
+ * Space Complexity: O(1).
+ * The algorithm uses a constant amount of space regardless of the size of the input array.
  */
 
 #include <limits.h> /* For INT_MIN */
