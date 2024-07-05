@@ -21,5 +21,6 @@ var files_dup =
     [ "selection_sort_stable.c", "selection__sort__stable_8c.html", "selection__sort__stable_8c" ],
     [ "selection_sort_strings.c", "selection__sort__strings_8c.html", "selection__sort__strings_8c" ],
     [ "simple_sort.c", "simple__sort_8c.html", "simple__sort_8c" ],
-    [ "ternary_search_simple.c", "ternary__search__simple_8c.html", "ternary__search__simple_8c" ]
+    [ "ternary_search_simple.c", "ternary__search__simple_8c.html", "ternary__search__simple_8c" ],
+    [ "two_elements_whose_sum_is_closest_to_zero.c", "two__elements__whose__sum__is__closest__to__zero_8c.html", "two__elements__whose__sum__is__closest__to__zero_8c" ]
 ];

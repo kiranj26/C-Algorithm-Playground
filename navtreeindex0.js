@@ -110,5 +110,9 @@ var NAVTREEINDEX0 =
 "simple__sort_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[4,0,20,1],
 "ternary__search__simple_8c.html":[4,0,21],
 "ternary__search__simple_8c.html#a54f5c651c54479905587645e30c9c2d9":[4,0,21,1],
-"ternary__search__simple_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[4,0,21,0]
+"ternary__search__simple_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[4,0,21,0],
+"two__elements__whose__sum__is__closest__to__zero_8c.html":[4,0,22],
+"two__elements__whose__sum__is__closest__to__zero_8c.html#a18db9cbc744d013b36099ace632b250c":[4,0,22,0],
+"two__elements__whose__sum__is__closest__to__zero_8c.html#a8d34456d47ac564b9f5a8ab8f3ac36ca":[4,0,22,2],
+"two__elements__whose__sum__is__closest__to__zero_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[4,0,22,1]
 };
