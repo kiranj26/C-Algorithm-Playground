@@ -4,6 +4,7 @@ var files_dup =
     [ "bubble_sort.c", "bubble__sort_8c.html", "bubble__sort_8c" ],
     [ "bubble_sort_recursive.c", "bubble__sort__recursive_8c.html", "bubble__sort__recursive_8c" ],
     [ "exponential_search_simple.c", "exponential__search__simple_8c.html", "exponential__search__simple_8c" ],
+    [ "find_a_repeating_and_a_missing_number.c", "find__a__repeating__and__a__missing__number_8c.html", "find__a__repeating__and__a__missing__number_8c" ],
     [ "find_first_repeating_element_array_integers.c", "find__first__repeating__element__array__integers_8c.html", "find__first__repeating__element__array__integers_8c" ],
     [ "insertion_sort_iterative.c", "insertion__sort__iterative_8c.html", "insertion__sort__iterative_8c" ],
     [ "insertion_sort_recursive.c", "insertion__sort__recursive_8c.html", "insertion__sort__recursive_8c" ],
