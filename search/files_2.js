@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['insertion_5fsort_5fiterative_2ec_53',['insertion_sort_iterative.c',['../insertion__sort__iterative_8c.html',1,'']]],
-  ['insertion_5fsort_5frecursive_2ec_54',['insertion_sort_recursive.c',['../insertion__sort__recursive_8c.html',1,'']]],
-  ['interpolation_5fsearch_5fsimple_2ec_55',['interpolation_search_simple.c',['../interpolation__search__simple_8c.html',1,'']]]
+  ['find_5ffirst_5frepeating_5felement_5farray_5fintegers_2ec_57',['find_first_repeating_element_array_integers.c',['../find__first__repeating__element__array__integers_8c.html',1,'']]]
 ];
