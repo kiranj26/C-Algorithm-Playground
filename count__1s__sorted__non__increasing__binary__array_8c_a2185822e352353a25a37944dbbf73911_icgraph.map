@@ -1,0 +1,4 @@
+<map id="count1s" name="count1s">
+<area shape="rect" id="node1" title="Counts the number of 1s in a sorted non&#45;increasing binary array using linear search." alt="" coords="108,5,181,32"/>
+<area shape="rect" id="node2" href="$count__1s__sorted__non__increasing__binary__array_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Driver code to demonstrate the count1s function." alt="" coords="5,5,60,32"/>
+</map>
