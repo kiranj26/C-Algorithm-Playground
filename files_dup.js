@@ -11,6 +11,7 @@ var files_dup =
     [ "insertion_sort_recursive.c", "insertion__sort__recursive_8c.html", "insertion__sort__recursive_8c" ],
     [ "interpolation_search_simple.c", "interpolation__search__simple_8c.html", "interpolation__search__simple_8c" ],
     [ "jump_search_simple.c", "jump__search__simple_8c.html", "jump__search__simple_8c" ],
+    [ "k_largest_elements.c", "k__largest__elements_8c.html", "k__largest__elements_8c" ],
     [ "largest_three_elements_in_array.c", "largest__three__elements__in__array_8c.html", "largest__three__elements__in__array_8c" ],
     [ "linear_search_sentinel.c", "linear__search__sentinel_8c.html", "linear__search__sentinel_8c" ],
     [ "linear_search_simple.c", "linear__search__simple_8c.html", "linear__search__simple_8c" ],
