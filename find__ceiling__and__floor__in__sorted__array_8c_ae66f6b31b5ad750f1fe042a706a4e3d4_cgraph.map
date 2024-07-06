@@ -1,0 +1,5 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="Driver code to demonstrate the findCeiling and findFloor functions." alt="" coords="5,31,60,57"/>
+<area shape="rect" id="node2" href="$find__ceiling__and__floor__in__sorted__array_8c.html#ac7e83595ebaf7ae94040fceb04074870" title="Finds the ceiling of x in a sorted array using linear search. The ceiling of x is the smallest elemen..." alt="" coords="108,5,199,32"/>
+<area shape="rect" id="node3" href="$find__ceiling__and__floor__in__sorted__array_8c.html#af551b95d50650019c9bfbb134b23e156" title="Finds the floor of x in a sorted array using linear search. The floor of x is the largest element in ..." alt="" coords="114,56,193,83"/>
+</map>
