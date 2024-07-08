@@ -5,6 +5,7 @@ var files_dup =
     [ "bubble_sort_recursive.c", "bubble__sort__recursive_8c.html", "bubble__sort__recursive_8c" ],
     [ "count_1s_sorted_non_increasing_binary_array.c", "count__1s__sorted__non__increasing__binary__array_8c.html", "count__1s__sorted__non__increasing__binary__array_8c" ],
     [ "easy/count_1s_sorted_non_increasing_binary_array.c", "easy_2count__1s__sorted__non__increasing__binary__array_8c.html", "easy_2count__1s__sorted__non__increasing__binary__array_8c" ],
+    [ "counting_sort_simple.c", "counting__sort__simple_8c.html", "counting__sort__simple_8c" ],
     [ "exponential_search_simple.c", "exponential__search__simple_8c.html", "exponential__search__simple_8c" ],
     [ "easy/find_a_repeating_and_a_missing_number.c", "easy_2find__a__repeating__and__a__missing__number_8c.html", "easy_2find__a__repeating__and__a__missing__number_8c" ],
     [ "find_a_repeating_and_a_missing_number.c", "find__a__repeating__and__a__missing__number_8c.html", "find__a__repeating__and__a__missing__number_8c" ],
