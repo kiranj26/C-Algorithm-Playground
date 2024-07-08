@@ -13,6 +13,7 @@ var files_dup =
     [ "easy/find_first_repeating_element_array_integers.c", "easy_2find__first__repeating__element__array__integers_8c.html", "easy_2find__first__repeating__element__array__integers_8c" ],
     [ "find_first_repeating_element_array_integers.c", "find__first__repeating__element__array__integers_8c.html", "find__first__repeating__element__array__integers_8c" ],
     [ "find_triplets_array_whose_sum_equal_zero.c", "find__triplets__array__whose__sum__equal__zero_8c.html", "find__triplets__array__whose__sum__equal__zero_8c" ],
+    [ "heap_sort_recursive.c", "heap__sort__recursive_8c.html", "heap__sort__recursive_8c" ],
     [ "heap_sort_simple.c", "heap__sort__simple_8c.html", "heap__sort__simple_8c" ],
     [ "insertion_sort_iterative.c", "insertion__sort__iterative_8c.html", "insertion__sort__iterative_8c" ],
     [ "insertion_sort_recursive.c", "insertion__sort__recursive_8c.html", "insertion__sort__recursive_8c" ],
