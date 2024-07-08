@@ -1,0 +1,6 @@
+<map id="swap" name="swap">
+<area shape="rect" id="node1" title="Swap two elements in an array." alt="" coords="355,31,411,57"/>
+<area shape="rect" id="node2" href="$heap__sort__simple_8c.html#a1c6c3862fc82db2087497b88d1457411" title="Heapify a subtree rooted with node i which is an index in arr[]. n is the size of the heap." alt="" coords="236,5,307,32"/>
+<area shape="rect" id="node3" href="$heap__sort__simple_8c.html#ad8f41dec1f37969a8339af9656dbff08" title="Perform heap sort on an array." alt="" coords="108,31,188,57"/>
+<area shape="rect" id="node4" href="$heap__sort__simple_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Driver code to demonstrate the heapSort function." alt="" coords="5,31,60,57"/>
+</map>

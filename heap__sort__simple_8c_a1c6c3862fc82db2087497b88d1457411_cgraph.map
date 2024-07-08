@@ -1,0 +1,4 @@
+<map id="heapify" name="heapify">
+<area shape="rect" id="node1" title="Heapify a subtree rooted with node i which is an index in arr[]. n is the size of the heap." alt="" coords="5,5,76,32"/>
+<area shape="rect" id="node2" href="$heap__sort__simple_8c.html#a4b9708d87be7a409eff20e5e7e8b43c8" title="Swap two elements in an array." alt="" coords="124,5,180,32"/>
+</map>
