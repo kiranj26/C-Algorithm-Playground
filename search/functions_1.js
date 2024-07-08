@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['compare_127',['compare',['../easy_2two__elements__whose__sum__is__closest__to__zero_8c.html#a18db9cbc744d013b36099ace632b250c',1,'compare(const void *a, const void *b):&#160;two_elements_whose_sum_is_closest_to_zero.c'],['../two__elements__whose__sum__is__closest__to__zero_8c.html#a18db9cbc744d013b36099ace632b250c',1,'compare(const void *a, const void *b):&#160;two_elements_whose_sum_is_closest_to_zero.c']]],
-  ['count1s_128',['count1s',['../count__1s__sorted__non__increasing__binary__array_8c.html#a2185822e352353a25a37944dbbf73911',1,'count1s(int arr[], int size):&#160;count_1s_sorted_non_increasing_binary_array.c'],['../easy_2count__1s__sorted__non__increasing__binary__array_8c.html#a2185822e352353a25a37944dbbf73911',1,'count1s(int arr[], int size):&#160;count_1s_sorted_non_increasing_binary_array.c']]],
-  ['countingsort_129',['countingSort',['../counting__sort__simple_8c.html#a559618326d3bf8d81c006dde59fe3107',1,'counting_sort_simple.c']]]
+  ['binarysearch_128',['binarySearch',['../binary__search__simple_8c.html#a4220dcaf2f59a5ed46c7feaffee1df81',1,'binary_search_simple.c']]],
+  ['bubble_5fsort_129',['bubble_sort',['../bubble__sort_8c.html#a70422e9ef968201dd6039b8005a4d56d',1,'bubble_sort.c']]],
+  ['bubble_5fsort_5frecursive_130',['bubble_sort_recursive',['../bubble__sort__recursive_8c.html#ad7284365cd17d7451196792bd2e81e57',1,'bubble_sort_recursive.c']]],
+  ['bubblesort_131',['bubbleSort',['../simple__sort_8c.html#a80a64c660726e8cfc7f933482004210f',1,'simple_sort.c']]]
 ];
