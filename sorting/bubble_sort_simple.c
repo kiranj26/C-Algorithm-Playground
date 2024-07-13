@@ -1,5 +1,5 @@
 /**
- * @file bubble_sort.c
+ * @file bubble_sort_simple.c
  * @brief Implementation of the Bubble Sort Algorithm.
  *
  * @details
