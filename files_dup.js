@@ -30,7 +30,7 @@ var files_dup =
     [ "linear_search_sentinel.c", "linear__search__sentinel_8c.html", "linear__search__sentinel_8c" ],
     [ "linear_search_simple.c", "linear__search__simple_8c.html", "linear__search__simple_8c" ],
     [ "merge_sort_simple.c", "merge__sort__simple_8c.html", "merge__sort__simple_8c" ],
-    [ "quick_sort.c", "quick__sort_8c.html", "quick__sort_8c" ],
+    [ "quick_sort_simple.c", "quick__sort__simple_8c.html", "quick__sort__simple_8c" ],
     [ "selection_sort_iterative.c", "selection__sort__iterative_8c.html", "selection__sort__iterative_8c" ],
     [ "selection_sort_recursive.c", "selection__sort__recursive_8c.html", "selection__sort__recursive_8c" ],
     [ "selection_sort_stable.c", "selection__sort__stable_8c.html", "selection__sort__stable_8c" ],
