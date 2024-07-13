@@ -1,5 +1,5 @@
 /**
- * @file merge_sort.c
+ * @file merge_sort_simple.c
  * @brief Implementation of the Merge Sort Algorithm.
  *
  * @details
