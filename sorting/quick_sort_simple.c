@@ -1,5 +1,5 @@
 /**
- * @file quick_sort.c
+ * @file quick_sort_simple.c
  * @brief Implementation of the Quick Sort Algorithm.
  *
  * @details
