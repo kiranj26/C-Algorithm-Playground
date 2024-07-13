@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['searching_20algorithms_71',['Searching Algorithms',['../md_searching_README.html',1,'']]],
-  ['searching_20algorithms_20cheat_20sheet_72',['Searching Algorithms Cheat Sheet',['../md_searching_cheat_sheet.html',1,'']]],
+  ['searching_20algorithm_20interview_20tricks_20cheat_20sheet_71',['Searching Algorithm Interview Tricks Cheat Sheet',['../md_searching_cheat_sheet.html',1,'']]],
+  ['searching_20algorithms_72',['Searching Algorithms',['../md_searching_README.html',1,'']]],
   ['selection_5fsort_73',['selection_sort',['../selection__sort__iterative_8c.html#adbda67c9f851c6325cc505d55b9290f3',1,'selection_sort_iterative.c']]],
   ['selection_5fsort_5fiterative_2ec_74',['selection_sort_iterative.c',['../selection__sort__iterative_8c.html',1,'']]],
   ['selection_5fsort_5frecursive_75',['selection_sort_recursive',['../selection__sort__recursive_8c.html#a080d0bfc76fdeeb8686e2f588be8492c',1,'selection_sort_recursive.c']]],

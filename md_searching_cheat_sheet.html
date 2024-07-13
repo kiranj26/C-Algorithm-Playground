@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>C Algorithm Playground: Searching Algorithms Cheat Sheet</title>
+<title>C Algorithm Playground: Searching Algorithm Interview Tricks Cheat Sheet</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -84,170 +84,104 @@ $(document).ready(function(){initNavTree('md_searching_cheat_sheet.html',''); in
 
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Searching Algorithms Cheat Sheet </div>  </div>
+<div class="title">Searching Algorithm Interview Tricks Cheat Sheet </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><h1><a class="anchor" id="autotoc_md23"></a>
 Introduction</h1>
-<p>This cheat sheet covers essential tips and tricks for solving searching algorithm problems commonly found in technical interviews and on platforms like LeetCode. Use this guide to quickly recall key concepts and improve your problem-solving skills.</p>
+<p>This cheat sheet covers essential tips, tricks, and strategies to tackle common searching algorithm problems in technical interviews. These insights will help you solve problems efficiently and effectively.</p>
 <hr  />
 <h1><a class="anchor" id="autotoc_md25"></a>
-Table of Contents</h1>
+Binary Search Tricks</h1>
 <ol type="1">
-<li><a href="#binary-search">Binary Search</a></li>
-<li><a href="#depth-first-search-dfs">Depth-First Search (DFS)</a></li>
-<li><a href="#breadth-first-search-bfs">Breadth-First Search (BFS)</a></li>
-<li><a href="#two-pointer-technique">Two-Pointer Technique</a></li>
-<li><a href="#sliding-window">Sliding Window</a></li>
-<li><a href="#trie-prefix-tree">Trie (Prefix Tree)</a></li>
-<li><a href="#graph-search">Graph Search</a></li>
+<li><b>Handling Duplicates</b>: Use left and right pointers to find the first or last occurrence.</li>
+<li><b>Finding Pivot Point</b>: In rotated sorted arrays, find the pivot by comparing middle and end elements.</li>
+<li><b>Search in 2D Matrix</b>: Treat the matrix as a flat array using index transformation.</li>
+<li><b>Search in Rotated Array</b>: Adjust the mid calculation to handle the rotated part.</li>
+<li><b>Finding Square Root</b>: Use binary search to find the square root of a number.</li>
+<li><b>Search Insert Position</b>: Find the position where a target should be inserted in a sorted array.</li>
+<li><b>Find Peak Element</b>: Use binary search to find a peak element in an array.</li>
+<li><b>Find Minimum in Rotated Sorted Array</b>: Use binary search to find the minimum element.</li>
+<li><b>Median of Two Sorted Arrays</b>: Use binary search to find the median of two sorted arrays.</li>
+<li><b>Aggressive Cows Problem</b>: Use binary search to solve allocation problems.</li>
+<li><b>Allocate Minimum Pages</b>: Use binary search to find the optimal allocation of pages.</li>
+<li><b>Painters Partition Problem</b>: Use binary search to minimize the maximum partition sum.</li>
+<li><b>Capacity to Ship Packages</b>: Use binary search to find the minimum capacity of a ship.</li>
+<li><b>Kth Smallest Element</b>: Use binary search in a matrix to find the kth smallest element.</li>
+<li><b>Divide Chocolate</b>: Use binary search to divide chocolate pieces optimally.</li>
+<li><b>Magnetic Force Between Balls</b>: Use binary search to maximize the minimum magnetic force.</li>
+<li><b>Split Array Largest Sum</b>: Use binary search to split an array into subarrays with minimized largest sum.</li>
+<li><b>Smallest Divisor</b>: Use binary search to find the smallest divisor given a threshold.</li>
+<li><b>Find Right Interval</b>: Use binary search to find the right interval for each interval.</li>
+<li><b>Missing Element in Sorted Array</b>: Use binary search to find the missing element.</li>
+<li><b>Find Duplicate Number</b>: Use binary search to find the duplicate number in an array.</li>
+<li><b>Minimize Max Distance to Gas Station</b>: Use binary search to minimize the maximum distance.</li>
+<li><b>Koko Eating Bananas</b>: Use binary search to find the minimum eating speed.</li>
+<li><b>Minimize Max Distance to Gas Station</b>: Use binary search to place gas stations optimally.</li>
+<li><b>Search in Infinite Array</b>: Use binary search by expanding the search range exponentially.</li>
 </ol>
 <hr  />
 <h1><a class="anchor" id="autotoc_md27"></a>
-Binary Search</h1>
-<h2><a class="anchor" id="autotoc_md28"></a>
-Concept</h2>
-<p>Binary search is used on a sorted array to find the position of a target value. It repeatedly divides the search interval in half.</p>
-<h2><a class="anchor" id="autotoc_md29"></a>
-Key Points</h2>
-<ul>
-<li><b>Time Complexity</b>: O(log n)</li>
-<li><b>Space Complexity</b>: O(1) for iterative, O(log n) for recursive</li>
-<li>Always check for overflow when calculating <code>mid</code>.</li>
-</ul>
-<h2><a class="anchor" id="autotoc_md30"></a>
-Visualization</h2>
-<p>``` Initial Array: [1, 2, 3, 4, 5, 6, 7, 8, 9] Target: 5</p>
+Two-Pointer Technique Tricks</h1>
 <ol type="1">
-<li>Calculate mid: (low + high) / 2</li>
-<li>Compare mid with target</li>
-<li>Adjust low or high</li>
-<li>Repeat until found or low &gt; high ```</li>
+<li><b>Pair Sum Problem</b>: Use two pointers to find pairs that sum up to a target in a sorted array.</li>
+<li><b>Removing Duplicates</b>: Use slow and fast pointers to remove duplicates in-place.</li>
+<li><b>Partitioning</b>: Use two pointers to partition arrays based on a pivot.</li>
+<li><b>Palindromes</b>: Check if a string is a palindrome by using two pointers from both ends.</li>
+<li><b>Container With Most Water</b>: Use two pointers to find the container that holds the most water.</li>
+<li><b>3Sum Problem</b>: Use two pointers within a loop to find triplets that sum up to zero.</li>
+<li><b>4Sum Problem</b>: Use two pointers within nested loops to find quadruplets that sum up to a target.</li>
+<li><b>Subarray Product Less Than K</b>: Use two pointers to find subarrays with a product less than K.</li>
+<li><b>Max Consecutive Ones III</b>: Use two pointers to find the maximum number of consecutive 1s after flipping K zeros.</li>
+<li><b>Minimum Window Substring</b>: Use two pointers to find the smallest substring containing all characters of another string.</li>
+<li><b>Sort Colors</b>: Use two pointers to sort an array with three unique elements.</li>
+<li><b>Fruit Into Baskets</b>: Use two pointers to collect the maximum number of fruits in two baskets.</li>
+<li><b>Backspace String Compare</b>: Use two pointers to compare two strings considering backspaces.</li>
+<li><b>Squares of a Sorted Array</b>: Use two pointers to merge squares of a sorted array.</li>
+<li><b>Subarray Sum Equals K</b>: Use two pointers to find subarrays that sum up to K.</li>
+<li><b>Remove Nth Node From End of List</b>: Use two pointers to remove the nth node from the end of a linked list.</li>
+<li><b>Reverse Words in a String</b>: Use two pointers to reverse the order of words in a string.</li>
+<li><b>Longest Substring Without Repeating Characters</b>: Use two pointers to find the longest substring without repeating characters.</li>
+<li><b>Valid Palindrome II</b>: Use two pointers to check if a string can be a palindrome after deleting at most one character.</li>
+<li><b>Max Area of Island</b>: Use two pointers to find the maximum area of an island in a grid.</li>
+<li><b>Trap Rain Water</b>: Use two pointers to find the maximum water that can be trapped.</li>
+<li><b>Dutch National Flag Problem</b>: Use two pointers to sort an array of 0s, 1s, and 2s.</li>
+<li><b>Subarrays with K Different Integers</b>: Use two pointers to find the number of subarrays with exactly K different integers.</li>
+<li><b>Move Zeroes</b>: Use two pointers to move all zeroes to the end of the array.</li>
+<li><b>Longest Mountain in Array</b>: Use two pointers to find the longest mountain in an array.</li>
 </ol>
 <hr  />
-<h1><a class="anchor" id="autotoc_md32"></a>
-Depth-First Search (DFS)</h1>
-<h2><a class="anchor" id="autotoc_md33"></a>
-Concept</h2>
-<p>DFS explores as far as possible along each branch before backtracking.</p>
-<h2><a class="anchor" id="autotoc_md34"></a>
-Key Points</h2>
-<ul>
-<li><b>Time Complexity</b>: O(V + E)</li>
-<li><b>Space Complexity</b>: O(V)</li>
-<li>Can be implemented using a stack (iterative) or recursion.</li>
-</ul>
-<h2><a class="anchor" id="autotoc_md35"></a>
-Visualization</h2>
-<p>``` Graph: 1 - 2 | | 3 - 4</p>
+<h1><a class="anchor" id="autotoc_md29"></a>
+Sliding Window Tricks</h1>
 <ol type="1">
-<li>Start at node 1</li>
-<li>Visit nodes 2, 4, 3 recursively ```</li>
+<li><b>Maximum Sum Subarray</b>: Use a sliding window to find the maximum sum of subarrays of a fixed size.</li>
+<li><b>Minimum Window Substring</b>: Use sliding window to find the smallest substring containing all characters of another string.</li>
+<li><b>Longest Substring Without Repeating Characters</b>: Use sliding window to find the longest substring without repeating characters.</li>
+<li><b>Sliding Window Maximum</b>: Use a deque to find the maximum value in each sliding window.</li>
+<li><b>Subarrays with K Different Integers</b>: Use sliding window to find the number of subarrays with exactly K different integers.</li>
+<li><b>Longest Repeating Character Replacement</b>: Use sliding window to find the longest substring after replacing at most K characters.</li>
+<li><b>Permutation in String</b>: Use sliding window to check if one string's permutation is a substring of another string.</li>
+<li><b>Find All Anagrams in a String</b>: Use sliding window to find all anagrams of a pattern in a string.</li>
+<li><b>Grumpy Bookstore Owner</b>: Use sliding window to maximize the number of satisfied customers.</li>
+<li><b>Subarray Product Less Than K</b>: Use sliding window to find the number of subarrays with a product less than K.</li>
+<li><b>Longest Substring with At Most K Distinct Characters</b>: Use sliding window to find the longest substring with at most K distinct characters.</li>
+<li><b>Longest Substring with At Least K Repeating Characters</b>: Use sliding window to find the longest substring with at least K repeating characters.</li>
+<li><b>Smallest Subarray with Sum Greater Than K</b>: Use sliding window to find the smallest subarray with sum greater than K.</li>
+<li><b>Replace Elements with Greatest Element on Right Side</b>: Use sliding window to replace each element with the greatest element on its right.</li>
+<li><b>Check If All 1's Are at Least Length K Places Away</b>: Use sliding window to check if all 1's are at least K places away.</li>
+<li><b>Max Consecutive Ones III</b>: Use sliding window to find the maximum number of consecutive 1s after flipping K zeros.</li>
+<li><b>Number of Subarrays of Size K and Average Greater Than or Equal to Threshold</b>: Use sliding window to find the number of subarrays of size K with average greater than or equal to threshold.</li>
+<li><b>Binary Subarrays With Sum</b>: Use sliding window to find the number of subarrays with a sum equal to a given value.</li>
+<li><b>Minimum Size Subarray Sum</b>: Use sliding window to find the minimum length of a subarray with sum equal to or greater than a given value.</li>
+<li><b>Contains Duplicate II</b>: Use sliding window to check if there are any duplicate numbers within a given range.</li>
+<li><b>Longest Substring with Exactly K Distinct Characters</b>: Use sliding window to find the longest substring with exactly K distinct characters.</li>
+<li><b>Maximum Points You Can Obtain from Cards</b>: Use sliding window to find the maximum points you can obtain from cards.</li>
+<li><b>Maximum Erasure Value</b>: Use sliding window to find the maximum sum of a subarray with all unique elements.</li>
+<li><b>Find K-Length Substrings with No Repeated Characters</b>: Use sliding window to find all K-length substrings with no repeated characters.</li>
+<li><b>Count Number of Nice Subarrays</b>: Use sliding window to count the number of subarrays with exactly K odd numbers.</li>
 </ol>
 <hr  />
-<h1><a class="anchor" id="autotoc_md37"></a>
-Breadth-First Search (BFS)</h1>
-<h2><a class="anchor" id="autotoc_md38"></a>
-Concept</h2>
-<p>BFS explores all nodes at the present depth before moving on to nodes at the next depth level.</p>
-<h2><a class="anchor" id="autotoc_md39"></a>
-Key Points</h2>
-<ul>
-<li><b>Time Complexity</b>: O(V + E)</li>
-<li><b>Space Complexity</b>: O(V)</li>
-<li>Uses a queue for implementation.</li>
-</ul>
-<h2><a class="anchor" id="autotoc_md40"></a>
-Visualization</h2>
-<p>``` Graph: 1 - 2 | | 3 - 4</p>
-<ol type="1">
-<li>Start at node 1</li>
-<li>Visit nodes 2, 3</li>
-<li>Visit node 4 ```</li>
-</ol>
-<hr  />
-<h1><a class="anchor" id="autotoc_md42"></a>
-Two-Pointer Technique</h1>
-<h2><a class="anchor" id="autotoc_md43"></a>
-Concept</h2>
-<p>Two pointers are used to iterate through the array to find pairs that meet certain criteria.</p>
-<h2><a class="anchor" id="autotoc_md44"></a>
-Key Points</h2>
-<ul>
-<li>Commonly used for problems involving pairs or triplets.</li>
-<li><b>Time Complexity</b>: O(n)</li>
-<li><b>Space Complexity</b>: O(1)</li>
-</ul>
-<h2><a class="anchor" id="autotoc_md45"></a>
-Visualization</h2>
-<p>``` Array: [1, 2, 3, 4, 5, 6] Target Sum: 7</p>
-<ol type="1">
-<li>Set left pointer at start and right pointer at end</li>
-<li>Move pointers based on sum comparison ```</li>
-</ol>
-<hr  />
-<h1><a class="anchor" id="autotoc_md47"></a>
-Sliding Window</h1>
-<h2><a class="anchor" id="autotoc_md48"></a>
-Concept</h2>
-<p>A dynamic window slides over the array to find subarrays that meet certain conditions.</p>
-<h2><a class="anchor" id="autotoc_md49"></a>
-Key Points</h2>
-<ul>
-<li><b>Time Complexity</b>: O(n)</li>
-<li><b>Space Complexity</b>: O(1)</li>
-<li>Useful for problems involving subarrays or substrings.</li>
-</ul>
-<h2><a class="anchor" id="autotoc_md50"></a>
-Visualization</h2>
-<p>``` Array: [1, 2, 3, 4, 5] Window Size: 3</p>
-<ol type="1">
-<li>Initialize window with first k elements</li>
-<li>Slide window across array, updating sum ```</li>
-</ol>
-<hr  />
-<h1><a class="anchor" id="autotoc_md52"></a>
-Trie (Prefix Tree)</h1>
-<h2><a class="anchor" id="autotoc_md53"></a>
-Concept</h2>
-<p>Trie is a tree-like data structure used to store a dynamic set of strings, where the keys are usually strings.</p>
-<h2><a class="anchor" id="autotoc_md54"></a>
-Key Points</h2>
-<ul>
-<li><b>Time Complexity</b>: O(m) for insertion and search, where m is the length of the word.</li>
-<li><b>Space Complexity</b>: O(n * m), where n is the number of keys and m is the average key length.</li>
-</ul>
-<h2><a class="anchor" id="autotoc_md55"></a>
-Visualization</h2>
-<p>``` Words: ["apple", "ape", "bat"] </p><pre class="fragment">     root
-    /    \
-   a      b
-  / \      \
- p   e      a
-/     \      \
-</pre><p> p n t / \ l d / e ```</p>
-<hr  />
-<h1><a class="anchor" id="autotoc_md57"></a>
-Graph Search</h1>
-<h2><a class="anchor" id="autotoc_md58"></a>
-Concept</h2>
-<p>Graph search algorithms like DFS and BFS are used to explore nodes and edges in a graph.</p>
-<h2><a class="anchor" id="autotoc_md59"></a>
-Key Points</h2>
-<ul>
-<li><b>DFS</b> is good for exploring all paths.</li>
-<li><b>BFS</b> is optimal for finding the shortest path in unweighted graphs.</li>
-<li><b>Time Complexity</b>: O(V + E)</li>
-<li><b>Space Complexity</b>: O(V)</li>
-</ul>
-<h2><a class="anchor" id="autotoc_md60"></a>
-Visualization</h2>
-<p>``` Graph: A - B - C | | D - E</p>
-<ol type="1">
-<li>Use DFS or BFS to explore the graph from node A ```</li>
-</ol>
-<hr  />
-<h1><a class="anchor" id="autotoc_md62"></a>
+<h1><a class="anchor" id="autotoc_md31"></a>
 Contact</h1>
 <p>Kiran Jojare <br  />
  Embedded Software Engineer <br  />
