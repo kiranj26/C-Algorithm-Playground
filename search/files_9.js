@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['merge_5fsort_2ec_119',['merge_sort.c',['../merge__sort_8c.html',1,'']]]
+  ['merge_5fsort_5fsimple_2ec_119',['merge_sort_simple.c',['../merge__sort__simple_8c.html',1,'']]]
 ];
