@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['linear_5fsearch_155',['linear_search',['../linear__search__simple_8c.html#a55798fb02d762756d679e60de75d6055',1,'linear_search_simple.c']]],
-  ['linear_5fsearch_5fsentinel_156',['linear_search_sentinel',['../linear__search__sentinel_8c.html#a43d8653409dcbbfc3031b218f7c3f52e',1,'linear_search_sentinel.c']]]
+  ['klargestelements_5fbinarysearch_158',['kLargestElements_BinarySearch',['../easy_2k__largest__elements_8c.html#a45b4417e072ee9fdaf857bde1edae25c',1,'kLargestElements_BinarySearch(int arr[], int n, int k):&#160;k_largest_elements.c'],['../k__largest__elements_8c.html#a45b4417e072ee9fdaf857bde1edae25c',1,'kLargestElements_BinarySearch(int arr[], int n, int k):&#160;k_largest_elements.c']]]
 ];

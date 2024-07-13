@@ -1,0 +1,7 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="Main function to test the dual&#45;pivot quick sort algorithm." alt="" coords="5,31,60,57"/>
+<area shape="rect" id="node2" href="$quick__sort__dual__pivot_8c.html#a7c1a7dde1f585a1149538a61ce16c7bd" title="Prints the elements of an array." alt="" coords="108,5,207,32"/>
+<area shape="rect" id="node3" href="$quick__sort__dual__pivot_8c.html#aa81ee1919d0ba97d6e1ec2fdc29184dc" title="Sorts an array using dual&#45;pivot quick sort algorithm." alt="" coords="113,56,202,83"/>
+<area shape="rect" id="node4" href="$quick__sort__dual__pivot_8c.html#a422daff36a59e5c7d44075bed1fe1723" title="Partitions the array for dual&#45;pivot quick sort." alt="" coords="255,56,407,83"/>
+<area shape="rect" id="node5" href="$quick__sort__dual__pivot_8c.html#a4b9708d87be7a409eff20e5e7e8b43c8" title="Swaps two elements in an array." alt="" coords="455,56,511,83"/>
+</map>
