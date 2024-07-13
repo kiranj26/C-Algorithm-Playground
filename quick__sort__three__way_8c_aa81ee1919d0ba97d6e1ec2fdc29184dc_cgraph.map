@@ -1,0 +1,5 @@
+<map id="quick_sort" name="quick_sort">
+<area shape="rect" id="node1" title="Sorts an array using three&#45;way quick sort algorithm." alt="" coords="5,5,95,32"/>
+<area shape="rect" id="node2" href="$quick__sort__three__way_8c.html#abf9e5979bd9d1b3e9ad3c042953bc284" title="Partitions the array for three&#45;way quick sort." alt="" coords="143,5,295,32"/>
+<area shape="rect" id="node3" href="$quick__sort__three__way_8c.html#a4b9708d87be7a409eff20e5e7e8b43c8" title="Swaps two elements in an array." alt="" coords="343,5,399,32"/>
+</map>

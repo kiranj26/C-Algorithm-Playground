@@ -1,0 +1,5 @@
+<map id="three_way_partition" name="three_way_partition">
+<area shape="rect" id="node1" title="Partitions the array for three&#45;way quick sort." alt="" coords="245,5,397,32"/>
+<area shape="rect" id="node2" href="$quick__sort__three__way_8c.html#aa81ee1919d0ba97d6e1ec2fdc29184dc" title="Sorts an array using three&#45;way quick sort algorithm." alt="" coords="108,5,197,32"/>
+<area shape="rect" id="node3" href="$quick__sort__three__way_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Main function to test the three&#45;way quick sort algorithm." alt="" coords="5,5,60,32"/>
+</map>
