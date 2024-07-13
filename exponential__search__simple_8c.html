@@ -118,26 +118,26 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>binary_search</b> (int
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implementation of the Exponential Search Algorithm. </p>
 <p>Exponential search is an efficient algorithm for finding a target value within a sorted array. This algorithm is particularly useful when the size of the array is unbounded or very large. The search process is divided into two main phases: finding the range where the target value may exist and performing a binary search within that range.</p>
-<h2><a class="anchor" id="autotoc_md22"></a>
+<h2><a class="anchor" id="autotoc_md63"></a>
 Algorithm Overview</h2>
 <ol type="1">
 <li>Begin with an index at 1 (i.e., the second element of the array).</li>
 <li>Double the index value in each step (i.e., 1, 2, 4, 8, ...) until finding an index that is out of bounds or the value at the index is greater than or equal to the target value.</li>
 <li>Once the range is determined (between the last index where the value was less than the target and the current index), perform a binary search in this range to find the target value.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md23"></a>
+<h2><a class="anchor" id="autotoc_md64"></a>
 Key Features</h2>
 <ul>
 <li>Efficient for searching in unbounded or large arrays where the size is not known in advance.</li>
 <li>Combines the speed of exponential growth to quickly find a suitable range with the precision of binary search to locate the target value within that range.</li>
 <li>Particularly efficient when the target value is closer to the beginning of the array.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md24"></a>
+<h2><a class="anchor" id="autotoc_md65"></a>
 Time Complexity</h2>
 <ul>
 <li>O(log n), where n is the position of the target value in the array. The time complexity arises from the fact that finding the range takes O(log n) time (due to the exponential increase in index) and binary search within the range also takes O(log n) time.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md25"></a>
+<h2><a class="anchor" id="autotoc_md66"></a>
 Space Complexity</h2>
 <ul>
 <li>O(1), as it requires a constant amount of space. The algorithm iteratively finds the range and performs binary search without additional space for data storage.</li>

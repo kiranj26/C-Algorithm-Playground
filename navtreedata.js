@@ -50,11 +50,51 @@ var NAVTREE =
       [ "Contact", "md_README.html#autotoc_md19", null ],
       [ "License", "md_README.html#autotoc_md20", null ]
     ] ],
+    [ "Searching Algorithms Cheat Sheet", "md_searching_cheat_sheet.html", [
+      [ "Introduction", "md_searching_cheat_sheet.html#autotoc_md23", null ],
+      [ "Table of Contents", "md_searching_cheat_sheet.html#autotoc_md25", null ],
+      [ "Binary Search", "md_searching_cheat_sheet.html#autotoc_md27", [
+        [ "Concept", "md_searching_cheat_sheet.html#autotoc_md28", null ],
+        [ "Key Points", "md_searching_cheat_sheet.html#autotoc_md29", null ],
+        [ "Visualization", "md_searching_cheat_sheet.html#autotoc_md30", null ]
+      ] ],
+      [ "Depth-First Search (DFS)", "md_searching_cheat_sheet.html#autotoc_md32", [
+        [ "Concept", "md_searching_cheat_sheet.html#autotoc_md33", null ],
+        [ "Key Points", "md_searching_cheat_sheet.html#autotoc_md34", null ],
+        [ "Visualization", "md_searching_cheat_sheet.html#autotoc_md35", null ]
+      ] ],
+      [ "Breadth-First Search (BFS)", "md_searching_cheat_sheet.html#autotoc_md37", [
+        [ "Concept", "md_searching_cheat_sheet.html#autotoc_md38", null ],
+        [ "Key Points", "md_searching_cheat_sheet.html#autotoc_md39", null ],
+        [ "Visualization", "md_searching_cheat_sheet.html#autotoc_md40", null ]
+      ] ],
+      [ "Two-Pointer Technique", "md_searching_cheat_sheet.html#autotoc_md42", [
+        [ "Concept", "md_searching_cheat_sheet.html#autotoc_md43", null ],
+        [ "Key Points", "md_searching_cheat_sheet.html#autotoc_md44", null ],
+        [ "Visualization", "md_searching_cheat_sheet.html#autotoc_md45", null ]
+      ] ],
+      [ "Sliding Window", "md_searching_cheat_sheet.html#autotoc_md47", [
+        [ "Concept", "md_searching_cheat_sheet.html#autotoc_md48", null ],
+        [ "Key Points", "md_searching_cheat_sheet.html#autotoc_md49", null ],
+        [ "Visualization", "md_searching_cheat_sheet.html#autotoc_md50", null ]
+      ] ],
+      [ "Trie (Prefix Tree)", "md_searching_cheat_sheet.html#autotoc_md52", [
+        [ "Concept", "md_searching_cheat_sheet.html#autotoc_md53", null ],
+        [ "Key Points", "md_searching_cheat_sheet.html#autotoc_md54", null ],
+        [ "Visualization", "md_searching_cheat_sheet.html#autotoc_md55", null ]
+      ] ],
+      [ "Graph Search", "md_searching_cheat_sheet.html#autotoc_md57", [
+        [ "Concept", "md_searching_cheat_sheet.html#autotoc_md58", null ],
+        [ "Key Points", "md_searching_cheat_sheet.html#autotoc_md59", null ],
+        [ "Visualization", "md_searching_cheat_sheet.html#autotoc_md60", null ]
+      ] ],
+      [ "Contact", "md_searching_cheat_sheet.html#autotoc_md62", null ]
+    ] ],
     [ "Searching Algorithms", "md_searching_README.html", [
-      [ "Algorithms Included", "md_searching_README.html#autotoc_md31", null ]
+      [ "Algorithms Included", "md_searching_README.html#autotoc_md72", null ]
     ] ],
     [ "Sorting Algorithms", "md_sorting_README.html", [
-      [ "Algorithms Included", "md_sorting_README.html#autotoc_md33", null ]
+      [ "Algorithms Included", "md_sorting_README.html#autotoc_md74", null ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
