@@ -1,8 +1,8 @@
 var files_dup =
 [
     [ "binary_search_simple.c", "binary__search__simple_8c.html", "binary__search__simple_8c" ],
-    [ "bubble_sort.c", "bubble__sort_8c.html", "bubble__sort_8c" ],
     [ "bubble_sort_recursive.c", "bubble__sort__recursive_8c.html", "bubble__sort__recursive_8c" ],
+    [ "bubble_sort_simple.c", "bubble__sort__simple_8c.html", "bubble__sort__simple_8c" ],
     [ "count_1s_sorted_non_increasing_binary_array.c", "count__1s__sorted__non__increasing__binary__array_8c.html", "count__1s__sorted__non__increasing__binary__array_8c" ],
     [ "easy/count_1s_sorted_non_increasing_binary_array.c", "easy_2count__1s__sorted__non__increasing__binary__array_8c.html", "easy_2count__1s__sorted__non__increasing__binary__array_8c" ],
     [ "counting_sort_recursive.c", "counting__sort__recursive_8c.html", "counting__sort__recursive_8c" ],

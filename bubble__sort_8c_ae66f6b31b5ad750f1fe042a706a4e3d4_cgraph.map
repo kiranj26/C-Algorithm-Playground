@@ -1,5 +1,0 @@
-<map id="main" name="main">
-<area shape="rect" id="node1" title="Main function to test the bubble sort algorithm." alt="" coords="5,31,60,57"/>
-<area shape="rect" id="node2" href="$bubble__sort_8c.html#a70422e9ef968201dd6039b8005a4d56d" title="Sorts an array using bubble sort algorithm." alt="" coords="108,5,207,32"/>
-<area shape="rect" id="node3" href="$bubble__sort_8c.html#a7c1a7dde1f585a1149538a61ce16c7bd" title="Prints the elements of an array." alt="" coords="108,56,207,83"/>
-</map>
