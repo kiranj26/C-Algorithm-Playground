@@ -60,8 +60,23 @@ var NAVTREE =
     [ "Searching Algorithms", "md_searching_README.html", [
       [ "Algorithms Included", "md_searching_README.html#autotoc_md41", null ]
     ] ],
+    [ "Sorting Algorithm Interview Tricks Cheat Sheet", "md_sorting_cheat_sheet.html", [
+      [ "Introduction", "md_sorting_cheat_sheet.html#autotoc_md43", null ],
+      [ "Quick Sort Tricks", "md_sorting_cheat_sheet.html#autotoc_md45", null ],
+      [ "Merge Sort Tricks", "md_sorting_cheat_sheet.html#autotoc_md47", null ],
+      [ "Insertion Sort Tricks", "md_sorting_cheat_sheet.html#autotoc_md49", null ],
+      [ "Selection Sort Tricks", "md_sorting_cheat_sheet.html#autotoc_md51", null ],
+      [ "Heap Sort Tricks", "md_sorting_cheat_sheet.html#autotoc_md53", null ],
+      [ "Bubble Sort Tricks", "md_sorting_cheat_sheet.html#autotoc_md55", null ],
+      [ "Bucket Sort Tricks", "md_sorting_cheat_sheet.html#autotoc_md57", null ],
+      [ "Radix Sort Tricks", "md_sorting_cheat_sheet.html#autotoc_md59", null ],
+      [ "Counting Sort Tricks", "md_sorting_cheat_sheet.html#autotoc_md61", null ],
+      [ "Two-Pointer Technique Tricks", "md_sorting_cheat_sheet.html#autotoc_md63", null ],
+      [ "Sliding Window Tricks", "md_sorting_cheat_sheet.html#autotoc_md65", null ],
+      [ "Contact", "md_sorting_cheat_sheet.html#autotoc_md67", null ]
+    ] ],
     [ "Sorting Algorithms", "md_sorting_README.html", [
-      [ "Algorithms Included", "md_sorting_README.html#autotoc_md43", null ]
+      [ "Algorithms Included", "md_sorting_README.html#autotoc_md69", null ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],

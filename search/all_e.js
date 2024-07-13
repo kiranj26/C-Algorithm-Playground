@@ -11,8 +11,9 @@ var searchData=
   ['selection_5fsort_5fstrings_2ec_79',['selection_sort_strings.c',['../selection__sort__strings_8c.html',1,'']]],
   ['shift_5fright_5fby_5f1_80',['shift_right_by_1',['../selection__sort__stable_8c.html#a80bf1bf6d6c9935a6aa34447135e161f',1,'selection_sort_stable.c']]],
   ['simple_5fsort_2ec_81',['simple_sort.c',['../simple__sort_8c.html',1,'']]],
-  ['sorting_20algorithms_82',['Sorting Algorithms',['../md_sorting_README.html',1,'']]],
-  ['stable_5fselection_5fsort_83',['stable_selection_sort',['../selection__sort__stable_8c.html#a2229e405ec0a17240099dc88285d1d13',1,'selection_sort_stable.c']]],
-  ['sum_5fclosest_5fto_5fzero_84',['sum_closest_to_zero',['../two__elements__whose__sum__is__closest__to__zero_8c.html#a8d34456d47ac564b9f5a8ab8f3ac36ca',1,'sum_closest_to_zero(int arr[], int n):&#160;two_elements_whose_sum_is_closest_to_zero.c'],['../easy_2two__elements__whose__sum__is__closest__to__zero_8c.html#a8d34456d47ac564b9f5a8ab8f3ac36ca',1,'sum_closest_to_zero(int arr[], int n):&#160;two_elements_whose_sum_is_closest_to_zero.c']]],
-  ['swap_85',['swap',['../heap__sort__recursive_8c.html#a4b9708d87be7a409eff20e5e7e8b43c8',1,'swap(int *a, int *b):&#160;heap_sort_recursive.c'],['../heap__sort__simple_8c.html#a4b9708d87be7a409eff20e5e7e8b43c8',1,'swap(int *a, int *b):&#160;heap_sort_simple.c'],['../quick__sort_8c.html#a4b9708d87be7a409eff20e5e7e8b43c8',1,'swap(int *a, int *b):&#160;quick_sort.c']]]
+  ['sorting_20algorithm_20interview_20tricks_20cheat_20sheet_82',['Sorting Algorithm Interview Tricks Cheat Sheet',['../md_sorting_cheat_sheet.html',1,'']]],
+  ['sorting_20algorithms_83',['Sorting Algorithms',['../md_sorting_README.html',1,'']]],
+  ['stable_5fselection_5fsort_84',['stable_selection_sort',['../selection__sort__stable_8c.html#a2229e405ec0a17240099dc88285d1d13',1,'selection_sort_stable.c']]],
+  ['sum_5fclosest_5fto_5fzero_85',['sum_closest_to_zero',['../two__elements__whose__sum__is__closest__to__zero_8c.html#a8d34456d47ac564b9f5a8ab8f3ac36ca',1,'sum_closest_to_zero(int arr[], int n):&#160;two_elements_whose_sum_is_closest_to_zero.c'],['../easy_2two__elements__whose__sum__is__closest__to__zero_8c.html#a8d34456d47ac564b9f5a8ab8f3ac36ca',1,'sum_closest_to_zero(int arr[], int n):&#160;two_elements_whose_sum_is_closest_to_zero.c']]],
+  ['swap_86',['swap',['../heap__sort__simple_8c.html#a4b9708d87be7a409eff20e5e7e8b43c8',1,'swap(int *a, int *b):&#160;heap_sort_simple.c'],['../quick__sort_8c.html#a4b9708d87be7a409eff20e5e7e8b43c8',1,'swap(int *a, int *b):&#160;quick_sort.c'],['../heap__sort__recursive_8c.html#a4b9708d87be7a409eff20e5e7e8b43c8',1,'swap(int *a, int *b):&#160;heap_sort_recursive.c']]]
 ];
