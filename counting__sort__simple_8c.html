@@ -131,6 +131,8 @@ Functions</h2></td></tr>
 <li><b>Accumulate Counts</b>: Modify the count array such that each element at each index stores the sum of previous counts.</li>
 <li><b>Place Elements</b>: Place the elements in the output array based on the count array and decrement the counts accordingly.</li>
 </ul>
+<p>Pseudo Code : Declare an auxiliary array countArray[] of size max(inputArray[])+1 and initialize it with 0. Traverse array inputArray[] and map each element of inputArray[] as an index of countArray[] array, i.e., execute countArray[inputArray[i]]++ for 0 &lt;= i &lt; N. Calculate the prefix sum at every index of array inputArray[]. Create an array outputArray[] of size N. Traverse array inputArray[] from end and update outputArray[ countArray[ inputArray[i] ] – 1] = inputArray[i]. Also, update countArray[ inputArray[i] ] = countArray[ inputArray[i] ]- – .</p>
+<p>Counting Sort is used when range of input is small even if the no of inputs is large</p>
 <p>@complexity</p><ul>
 <li><b>Time Complexity</b>: O(n + k)</li>
 <li><b>Space Complexity</b>: O(n + k)</li>
@@ -138,6 +140,7 @@ Functions</h2></td></tr>
 <p>@approach Explanation:</p><ul>
 <li><b>Counting Sort</b>: An efficient sorting algorithm for small ranges of integer values.</li>
 </ul>
+<p>@reference -<a href="https://www.geeksforgeeks.org/counting-sort/">https://www.geeksforgeeks.org/counting-sort/</a></p>
 <p>Author: Kiran Jojare </p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a559618326d3bf8d81c006dde59fe3107"></a>
