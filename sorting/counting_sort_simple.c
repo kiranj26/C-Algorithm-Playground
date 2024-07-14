@@ -11,12 +11,24 @@
  * - **Accumulate Counts**: Modify the count array such that each element at each index stores the sum of previous counts.
  * - **Place Elements**: Place the elements in the output array based on the count array and decrement the counts accordingly.
  * 
+ * Pseudo Code : 
+ * Declare an auxiliary array countArray[] of size max(inputArray[])+1 and initialize it with 0.
+ * Traverse array inputArray[] and map each element of inputArray[] as an index of countArray[] array, i.e., execute countArray[inputArray[i]]++ for 0 <= i < N.
+ * Calculate the prefix sum at every index of array inputArray[].
+ * Create an array outputArray[] of size N.
+ * Traverse array inputArray[] from end and update outputArray[ countArray[ inputArray[i] ] – 1] = inputArray[i]. Also, update countArray[ inputArray[i] ] = countArray[ inputArray[i] ]- – .
+ * 
+ * Counting Sort is used when range of input is small even if the no of inputs is large
+ * 
  * @complexity
  * - **Time Complexity**: O(n + k)
  * - **Space Complexity**: O(n + k)
  * 
  * @approach Explanation:
  * - **Counting Sort**: An efficient sorting algorithm for small ranges of integer values.
+ * 
+ * @reference
+ * -https://www.geeksforgeeks.org/counting-sort/
  * 
  * Author: Kiran Jojare
  */
@@ -50,7 +62,10 @@ int findMax(int arr[], int n) {
  */
 void countingSort(int arr[], int n) {
     int max = findMax(arr, n);
+    // Initialise all elements in the array to zero
+    // Array used for storing the count of each element
     int *count = (int *)calloc(max + 1, sizeof(int));
+
     int *output = (int *)malloc(n * sizeof(int));
 
     // Count the occurrences of each value
@@ -58,7 +73,9 @@ void countingSort(int arr[], int n) {
         count[arr[i]]++;
     }
 
-    // Accumulate counts
+    // Accumulate counts cumulative sum or prefix sum of the elements of the countArray[] by doing 
+    // countArray[i] = countArray[i – 1] + countArray[i]. 
+    // This will help in placing the elements of the input array at the correct index in the output array
     for (int i = 1; i <= max; i++) {
         count[i] += count[i - 1];
     }
