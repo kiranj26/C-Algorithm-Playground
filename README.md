@@ -33,10 +33,13 @@ The algorithms are organized into the following categories:
    - Bubble Sort
    - Selection Sort
    - Insertion Sort
+   - Counting Sort
 
 2. **Searching Algorithms**:
    - Linear Search
    - Binary Search
+   - Jump Search
+   - Ternary Search
 
 3. **Basic Data Structures**:
    - Arrays
@@ -55,7 +58,6 @@ The algorithms are organized into the following categories:
 1. **Sorting Algorithms**:
    - Merge Sort
    - Quick Sort
-   - Heap Sort
 
 2. **Searching Algorithms**:
    - Depth-First Search (DFS)
